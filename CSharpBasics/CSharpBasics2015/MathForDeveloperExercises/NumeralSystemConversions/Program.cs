@@ -15,30 +15,35 @@ class NumeralSystemConversions
 
         string inputBinary = null;
         //decimal to binary
+        string binary = null;
 
+        if (inputNumSystem == "dec" || inputNumSystem == "decimal")    //converter
+        {
+            DecimalToBinary(inputNumber);
+        }
+        else if (inputNumSystem == "hex" || inputNumSystem == "heximal")
+        {
+            inputBinary = HeximalToBinary(input);
+        }
+        else if (inputNumSystem == "bin" || inputNumSystem == "binary")
+        {
+            binary = BinaryToBinary(input);
+        }
+        binary = BinaryToBinary(input);
 
-        //if (inputNumSystem == "dec" || inputNumSystem == "decimal")    //converter
-        //{
-        //    DecimalToBinary(inputNumber);
-        //}
-        //else if (inputNumSystem == "hex" || inputNumSystem == "heximal")
-        //{
-        //    inputBinary = HeximalToBinary(input);
-        //}
-        //else if (inputNumSystem == "bin" || inputNumSystem == "binary")
-        //{
-        string binary = BinaryToBinary(input);
-        //}
-
-        //if (outputNumSystem == "bin" || outputNumSystem == "binary")
-        //{
-        //    string binaryOutput = binary;
-        //    Console.WriteLine(binaryOutput);
-        //}
-        //else if (outputNumSystem == "dec" || outputNumSystem == "decimal")
-        //{
-        //    BinaryToDecimal(binary);
-        //}
+        if (outputNumSystem == "bin" || outputNumSystem == "binary")
+        {
+            string binaryOutput = binary;
+            Console.WriteLine(binaryOutput);
+        }
+        else if (outputNumSystem == "dec" || outputNumSystem == "decimal")
+        {
+            BinaryToDecimal(binary);
+        }
+        else if (outputNumSystem == "hex" || outputNumSystem == "heximal")
+        {
+            BinaryToHeximal(binary);
+        }
 
 
         //char[] array = Console.ReadLine().;
@@ -50,17 +55,73 @@ class NumeralSystemConversions
         //}
         //BinaryToDecimal(input);
 
+        
+
+    }
+
+    private static void BinaryToHeximal(string binary)
+    {
         string heximalOutput = null;
+        string currentString = null;
         for (int i = 0; i < binary.Length; i++)
         {
-            if (binary[i] == '1')
+            currentString += binary[i];
+            if (currentString.Length == 4)
             {
-                decimalNum += 1 * ((int)Math.Pow(2, (binary.Length - (i + 1))));
+                switch (currentString)
+                {
+                    case "0000":
+                        break;
+                    case "0001":
+                        heximalOutput += 1;
+                        break;
+                    case "0010":
+                        heximalOutput += 2;
+                        break;
+                    case "0011":
+                        heximalOutput += 3;
+                        break;
+                    case "0100":
+                        heximalOutput += 4;
+                        break;
+                    case "0101":
+                        heximalOutput += 5;
+                        break;
+                    case "0110":
+                        heximalOutput += 6;
+                        break;
+                    case "0111":
+                        heximalOutput += 7;
+                        break;
+                    case "1000":
+                        heximalOutput += 8;
+                        break;
+                    case "1001":
+                        heximalOutput += 9;
+                        break;
+                    case "1010":
+                        heximalOutput += 'A';
+                        break;
+                    case "1011":
+                        heximalOutput += 'B';
+                        break;
+                    case "1100":
+                        heximalOutput += 'C';
+                        break;
+                    case "1101":
+                        heximalOutput += 'D';
+                        break;
+                    case "1110":
+                        heximalOutput += 'E';
+                        break;
+                    case "1111":
+                        heximalOutput += 'F';
+                        break;
+                }
+                currentString = null;
             }
         }
-        Console.WriteLine(decimalNum);
-
-
+        Console.WriteLine(heximalOutput);
     }
 
     private static void BinaryToDecimal(string binary)
