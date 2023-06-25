@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeFloatingPointNumber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeCharactersAndStrings", "PracticeCharactersAndStrings\PracticeCharactersAndStrings.csproj", "{393EE781-D924-4F2C-BCB9-6B9F8C7128CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeNullableTypes", "PracticeNullableTypes\PracticeNullableTypes.csproj", "{0BD4C91D-ED40-4CBD-A765-EBAC18A16CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeNullableTypes", "PracticeNullableTypes\PracticeNullableTypes.csproj", "{0BD4C91D-ED40-4CBD-A765-EBAC18A16CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DemosEscapingSequences", "01. DemosEscapingSequences\01. DemosEscapingSequences.csproj", "{2EE3B444-BE03-4F29-AFDD-809D6FDB6DBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0BD4C91D-ED40-4CBD-A765-EBAC18A16CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD4C91D-ED40-4CBD-A765-EBAC18A16CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD4C91D-ED40-4CBD-A765-EBAC18A16CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE3B444-BE03-4F29-AFDD-809D6FDB6DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE3B444-BE03-4F29-AFDD-809D6FDB6DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE3B444-BE03-4F29-AFDD-809D6FDB6DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE3B444-BE03-4F29-AFDD-809D6FDB6DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
