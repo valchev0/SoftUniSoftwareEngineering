@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFibonacciPrimes", "Some
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFactorials", "SomeFactorials\SomeFactorials.csproj", "{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateHypotenuse", "CalculateHypotenuse\CalculateHypotenuse.csproj", "{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystemConversions", "NumeralSystemConversions\NumeralSystemConversions.csproj", "{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

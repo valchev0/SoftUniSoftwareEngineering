@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-class Program
+class SomeFactorials
 {
     static void Main(string[] args)
     {
