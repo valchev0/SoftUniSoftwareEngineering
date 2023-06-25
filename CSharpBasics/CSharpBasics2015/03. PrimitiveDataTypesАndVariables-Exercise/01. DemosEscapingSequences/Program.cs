@@ -18,5 +18,8 @@ class DemosEscapingSequencess
         Console.WriteLine(directoryAddBackSlashApostrof);
         char symbol = '\u00ff';
         Console.WriteLine(symbol);
+        string hello = @"Hello, 
+                        C#";
+        Console.WriteLine(hello);
     }
 }
