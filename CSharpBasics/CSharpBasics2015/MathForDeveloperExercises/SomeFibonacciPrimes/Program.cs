@@ -14,7 +14,7 @@ class SomeFibonacciPrimes
                 i = 1;
             }
             Console.WriteLine(previusNumber);
-            if(previusNumber == 24 || previusNumber == 101 || previusNumber == 251)
+            if (previusNumber == 24 || previusNumber == 101 || previusNumber == 251)
                 Console.Write(" is Fibonacci nuber");
         }
     }
