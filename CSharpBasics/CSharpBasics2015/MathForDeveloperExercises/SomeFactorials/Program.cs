@@ -3,22 +3,18 @@ using System.Numerics;
 
 class SomeFactorials
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        ulong factorial = ulong.Parse(Console.ReadLine());
-        BigInteger n = factorial;
-        ulong factorialSum = 1;
-        ulong factorialCopy = factorial;
-        ulong max = 7922816251426433759;
-        ulong previusNumber = 1;
-        for (ulong i = 1; i <= n; i++)
+        string input;
+        while((input = Console.ReadLine()) != "End")
         {
-            if (factorial > 1)
+            int number = Convert.ToInt32(input);
+            BigInteger factorial = 1;
+            for (int i = number; i > 0; i--)
             {
-                factorialSum *= factorial;
-                factorial--;
+                factorial *= i;
             }
+            Console.WriteLine("{0}! = {1}", number, factorial);
         }
-        Console.WriteLine(factorialSum);
     }
 }
