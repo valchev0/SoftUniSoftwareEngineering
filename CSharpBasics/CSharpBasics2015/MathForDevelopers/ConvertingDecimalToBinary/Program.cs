@@ -19,7 +19,7 @@ class ConvertingDecimalToBinary
             container += digit;
             if (num <= 0)
             {
-                if(container.Length % 2 != 0) 
+                if (container.Length % 2 != 0)
                 {
                     container += 0;
                 }
@@ -27,9 +27,9 @@ class ConvertingDecimalToBinary
                 {
                     container += 0;
                 }
-                if(container.Length % 8 != 0)
-                { 
-                    container += 0; 
+                if (container.Length % 8 != 0)
+                {
+                    container += 0;
                 }
                 char[] charArray = container.ToCharArray();
                 Array.Reverse(charArray);

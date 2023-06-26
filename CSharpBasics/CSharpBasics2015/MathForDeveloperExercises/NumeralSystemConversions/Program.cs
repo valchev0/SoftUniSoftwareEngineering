@@ -9,7 +9,6 @@ class NumeralSystemConversions
     {
         string inputNumSystem = Console.ReadLine().ToLower();   //bin, dec, hex
         string input = Console.ReadLine().ToLower();
-        int inputNumber = int.Parse(input);
 
         string outputNumSystem = Console.ReadLine().ToLower();
 
@@ -19,6 +18,8 @@ class NumeralSystemConversions
 
         if (inputNumSystem == "dec" || inputNumSystem == "decimal")    //converter
         {
+
+            int inputNumber = int.Parse(input);
             DecimalToBinary(inputNumber);
         }
         else if (inputNumSystem == "hex" || inputNumSystem == "heximal")
@@ -34,7 +35,6 @@ class NumeralSystemConversions
         if (outputNumSystem == "bin" || outputNumSystem == "binary")
         {
             string binaryOutput = binary;
-            Console.WriteLine(binaryOutput);
         }
         else if (outputNumSystem == "dec" || outputNumSystem == "decimal")
         {
@@ -185,6 +185,7 @@ class NumeralSystemConversions
         char[] array = binary.ToCharArray();
         Array.Reverse(array);
         binary = new string(array);
+
         return binary;
     }
 
