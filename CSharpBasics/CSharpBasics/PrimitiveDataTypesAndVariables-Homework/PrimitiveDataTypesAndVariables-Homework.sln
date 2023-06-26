@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoscelesTriangle", "Isosce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeVariableValues", "ExchangeVariableValues\ExchangeVariableValues.csproj", "{FA9E1275-F70B-4A2D-8DA2-3B426988F803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{718998A4-FDDA-4A74-8991-9B68C1EEB328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FA9E1275-F70B-4A2D-8DA2-3B426988F803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA9E1275-F70B-4A2D-8DA2-3B426988F803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA9E1275-F70B-4A2D-8DA2-3B426988F803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718998A4-FDDA-4A74-8991-9B68C1EEB328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718998A4-FDDA-4A74-8991-9B68C1EEB328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718998A4-FDDA-4A74-8991-9B68C1EEB328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718998A4-FDDA-4A74-8991-9B68C1EEB328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
