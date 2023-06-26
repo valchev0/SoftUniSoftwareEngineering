@@ -18,7 +18,6 @@ class NumeralSystemConversions
 
         if (inputNumSystem == "dec" || inputNumSystem == "decimal")    //converter
         {
-
             int inputNumber = int.Parse(input);
             DecimalToBinary(inputNumber);
         }
@@ -30,11 +29,10 @@ class NumeralSystemConversions
         {
             binary = BinaryToBinary(input);
         }
-        binary = BinaryToBinary(input);
 
         if (outputNumSystem == "bin" || outputNumSystem == "binary")
         {
-            string binaryOutput = binary;
+            Console.WriteLine(binary);
         }
         else if (outputNumSystem == "dec" || outputNumSystem == "decimal")
         {
@@ -44,19 +42,6 @@ class NumeralSystemConversions
         {
             BinaryToHeximal(binary);
         }
-
-
-        //char[] array = Console.ReadLine().;
-        //int currentNumber = 0;
-        //for (int i = 0; i < array.Length; i++)
-        //{
-        //    currentNumber = Convert.ToInt32(array[i]);
-        //    Console.WriteLine(currentNumber);
-        //}
-        //BinaryToDecimal(input);
-
-        
-
     }
 
     private static void BinaryToHeximal(string binary)
@@ -126,6 +111,7 @@ class NumeralSystemConversions
 
     private static void BinaryToDecimal(string binary)
     {
+        binary = BinaryToBinary(binary);
         int decimalNum = 0;
         for (int i = 0; i < binary.Length; i++)
         {
@@ -185,26 +171,9 @@ class NumeralSystemConversions
         char[] array = binary.ToCharArray();
         Array.Reverse(array);
         binary = new string(array);
-
+        string binaryOutput = binary;
         return binary;
     }
-
-    //private static void BinaryToDecimal(string input)
-    //{
-    //    int currentNum = 0;
-    //    int binDec = 0;
-    //    for (int i = 0; i < input.Length; i++)
-    //    {
-    //        if (input[i] == '1')
-    //        {
-    //            currentNum = (int)Math.Pow(2, (input.Length - (i + 1)));
-    //        }
-    //        binDec += currentNum;
-    //        currentNum = 0;
-    //    }
-    //    Console.WriteLine(binDec);
-    //}
-
     private static string HeximalToBinary(string input)
     {
         string inputBinary;
@@ -336,7 +305,6 @@ class NumeralSystemConversions
                 char[] charArray = container.ToCharArray();
                 Array.Reverse(charArray);
                 string binary = new string(charArray);
-                Console.WriteLine(binary);
                 break;
             }
         }
