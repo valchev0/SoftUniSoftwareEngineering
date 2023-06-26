@@ -1,6 +1,6 @@
 ﻿using System;
 
-class DeclareVariables
+class FloatOrDouble
 {
     static void Main()
     {
