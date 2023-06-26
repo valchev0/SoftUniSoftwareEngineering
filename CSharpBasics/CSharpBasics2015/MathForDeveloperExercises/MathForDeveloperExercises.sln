@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomePrimes", "SomePrimes\SomePrimes.csproj", "{B359AD67-2E40-4A64-A19E-CD0CEEBADD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomePrimes", "SomePrimes\SomePrimes.csproj", "{B359AD67-2E40-4A64-A19E-CD0CEEBADD7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFibonacciPrimes", "SomeFibonacciPrimes\SomeFibonacciPrimes.csproj", "{A1A2EF67-F358-4CF8-B8F2-4C83335EE710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeFibonacciPrimes", "SomeFibonacciPrimes\SomeFibonacciPrimes.csproj", "{A1A2EF67-F358-4CF8-B8F2-4C83335EE710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFactorials", "SomeFactorials\SomeFactorials.csproj", "{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeFactorials", "SomeFactorials\SomeFactorials.csproj", "{445597A9-9FC1-4BD0-B7A2-3D6D29E3F708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateHypotenuse", "CalculateHypotenuse\CalculateHypotenuse.csproj", "{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystemConversions", "NumeralSystemConversions\NumeralSystemConversions.csproj", "{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateHypotenuse", "CalculateHypotenuse\CalculateHypotenuse.csproj", "{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B939B4E-3494-45C7-8135-AD5C3C0B3CCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EDA67DC-4ECF-433E-A3DB-AA2F6DFD792E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
