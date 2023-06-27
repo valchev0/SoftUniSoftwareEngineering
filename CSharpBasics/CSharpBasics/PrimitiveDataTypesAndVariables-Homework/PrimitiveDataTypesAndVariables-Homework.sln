@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoroTheFootballPlayer", "Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalfSum", "HalfSum\HalfSum.csproj", "{E1D4AF32-AB74-4D3D-8624-674F4A12083D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunglasses", "Sunglasses\Sunglasses.csproj", "{7A77A31B-10FA-4906-BA19-57445F2B16C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{E1D4AF32-AB74-4D3D-8624-674F4A12083D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D4AF32-AB74-4D3D-8624-674F4A12083D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D4AF32-AB74-4D3D-8624-674F4A12083D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A77A31B-10FA-4906-BA19-57445F2B16C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A77A31B-10FA-4906-BA19-57445F2B16C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A77A31B-10FA-4906-BA19-57445F2B16C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A77A31B-10FA-4906-BA19-57445F2B16C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
