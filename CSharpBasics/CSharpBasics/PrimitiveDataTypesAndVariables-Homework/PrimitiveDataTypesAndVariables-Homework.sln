@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclareVariables", "DeclareVariables\DeclareVariables.csproj", "{35B6932B-54F5-4327-AF10-36BE290EF3A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeclareVariables", "DeclareVariables\DeclareVariables.csproj", "{35B6932B-54F5-4327-AF10-36BE290EF3A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatOrDouble", "FloatOrDouble\FloatOrDouble.csproj", "{A1D0BFA1-5EDF-4F6F-9317-CAFC4B276FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloatOrDouble", "FloatOrDouble\FloatOrDouble.csproj", "{A1D0BFA1-5EDF-4F6F-9317-CAFC4B276FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableInHexadecimalFormat", "VariableInHexadecimalFormat\VariableInHexadecimalFormat.csproj", "{2361863B-28B4-4373-9058-4C1058FF9851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableInHexadecimalFormat", "VariableInHexadecimalFormat\VariableInHexadecimalFormat.csproj", "{2361863B-28B4-4373-9058-4C1058FF9851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnicodeCharacter", "UnicodeCharacter\UnicodeCharacter.csproj", "{22A916FE-FF7B-4943-B9D9-115F72208478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnicodeCharacter", "UnicodeCharacter\UnicodeCharacter.csproj", "{22A916FE-FF7B-4943-B9D9-115F72208478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanVariable", "BooleanVariable\BooleanVariable.csproj", "{A9E0C002-78B9-40AD-9733-5CF1E76743B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooleanVariable", "BooleanVariable\BooleanVariable.csproj", "{A9E0C002-78B9-40AD-9733-5CF1E76743B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAndObjects", "StringsAndObjects\StringsAndObjects.csproj", "{DBC98F76-032A-4AB7-968F-2D1154BEF8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringsAndObjects", "StringsAndObjects\StringsAndObjects.csproj", "{DBC98F76-032A-4AB7-968F-2D1154BEF8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotesInStrings", "QuotesInStrings\QuotesInStrings.csproj", "{A9537D4E-F4A7-41AD-95BE-17676114D296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuotesInStrings", "QuotesInStrings\QuotesInStrings.csproj", "{A9537D4E-F4A7-41AD-95BE-17676114D296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoscelesTriangle", "IsoscelesTriangle\IsoscelesTriangle.csproj", "{5DB8DFD8-F55E-49E7-8874-28EDA5AE2444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsoscelesTriangle", "IsoscelesTriangle\IsoscelesTriangle.csproj", "{5DB8DFD8-F55E-49E7-8874-28EDA5AE2444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeVariableValues", "ExchangeVariableValues\ExchangeVariableValues.csproj", "{FA9E1275-F70B-4A2D-8DA2-3B426988F803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeVariableValues", "ExchangeVariableValues\ExchangeVariableValues.csproj", "{FA9E1275-F70B-4A2D-8DA2-3B426988F803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{718998A4-FDDA-4A74-8991-9B68C1EEB328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{718998A4-FDDA-4A74-8991-9B68C1EEB328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountData", "BankAccountData\BankAccountData.csproj", "{63F78EDC-ADFA-4F40-AEA8-A72E66CE019C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountData", "BankAccountData\BankAccountData.csproj", "{63F78EDC-ADFA-4F40-AEA8-A72E66CE019C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullValuesArithmetic", "NullValuesArithmetic\NullValuesArithmetic.csproj", "{1F8707E1-5C4F-4BD7-BC1A-806C4765601B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullValuesArithmetic", "NullValuesArithmetic\NullValuesArithmetic.csproj", "{1F8707E1-5C4F-4BD7-BC1A-806C4765601B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingFloats", "ComparingFloats\ComparingFloats.csproj", "{FE3DDAFC-A246-475D-8587-2AFA0FC540D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1F8707E1-5C4F-4BD7-BC1A-806C4765601B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F8707E1-5C4F-4BD7-BC1A-806C4765601B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F8707E1-5C4F-4BD7-BC1A-806C4765601B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3DDAFC-A246-475D-8587-2AFA0FC540D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3DDAFC-A246-475D-8587-2AFA0FC540D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3DDAFC-A246-475D-8587-2AFA0FC540D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3DDAFC-A246-475D-8587-2AFA0FC540D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
