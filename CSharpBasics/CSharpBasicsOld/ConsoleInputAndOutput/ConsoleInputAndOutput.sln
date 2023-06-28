@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Demos", "00. Demos\00. Demos.csproj", "{2DE9C4B5-39F2-46B2-92B5-DE24C8B2CF89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DemosFloat", "01. DemosFloat\01. DemosFloat.csproj", "{17D30B96-6A9A-41EA-A062-2FF65394CD48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2DE9C4B5-39F2-46B2-92B5-DE24C8B2CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE9C4B5-39F2-46B2-92B5-DE24C8B2CF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE9C4B5-39F2-46B2-92B5-DE24C8B2CF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D30B96-6A9A-41EA-A062-2FF65394CD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D30B96-6A9A-41EA-A062-2FF65394CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D30B96-6A9A-41EA-A062-2FF65394CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D30B96-6A9A-41EA-A062-2FF65394CD48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
