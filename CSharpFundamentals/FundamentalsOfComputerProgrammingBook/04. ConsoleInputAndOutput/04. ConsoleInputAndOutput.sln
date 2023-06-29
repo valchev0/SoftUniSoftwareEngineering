@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSumOfFiveIntegers", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestOfFiveIntegers", "GreatestOfFiveIntegers\GreatestOfFiveIntegers.csproj", "{C63DBC9B-AE5B-4335-A621-B221BBE89F6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{31288769-339D-4F95-B2BB-5D19AC6A0332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C63DBC9B-AE5B-4335-A621-B221BBE89F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63DBC9B-AE5B-4335-A621-B221BBE89F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63DBC9B-AE5B-4335-A621-B221BBE89F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
