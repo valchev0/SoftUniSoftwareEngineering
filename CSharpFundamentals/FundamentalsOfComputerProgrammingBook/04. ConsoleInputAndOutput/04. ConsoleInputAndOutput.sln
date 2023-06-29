@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestOfFiveIntegers", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{31288769-339D-4F95-B2BB-5D19AC6A0332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First100FibonacciNumbers", "First100FibonacciNumbers\First100FibonacciNumbers.csproj", "{976CFB46-3D5F-493C-8554-6185688FD342}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31288769-339D-4F95-B2BB-5D19AC6A0332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976CFB46-3D5F-493C-8554-6185688FD342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976CFB46-3D5F-493C-8554-6185688FD342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976CFB46-3D5F-493C-8554-6185688FD342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976CFB46-3D5F-493C-8554-6185688FD342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
