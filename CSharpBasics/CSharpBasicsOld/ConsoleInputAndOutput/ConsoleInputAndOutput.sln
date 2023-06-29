@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. DemosReadChar", "02. De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. DemosTryCatch", "03. DemosTryCatch\03. DemosTryCatch.csproj", "{DDCB783B-E3B9-4DAB-B3BF-A914148E8D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. DemosTryCatch", "04. DemosTryCatch\04. DemosTryCatch.csproj", "{1E99B2A2-FB28-472F-B901-001FFB4BEA1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DDCB783B-E3B9-4DAB-B3BF-A914148E8D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDCB783B-E3B9-4DAB-B3BF-A914148E8D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDCB783B-E3B9-4DAB-B3BF-A914148E8D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E99B2A2-FB28-472F-B901-001FFB4BEA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E99B2A2-FB28-472F-B901-001FFB4BEA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E99B2A2-FB28-472F-B901-001FFB4BEA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E99B2A2-FB28-472F-B901-001FFB4BEA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

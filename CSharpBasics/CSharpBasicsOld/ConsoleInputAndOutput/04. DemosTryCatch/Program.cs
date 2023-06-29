@@ -13,18 +13,13 @@ namespace MyConsoleApp
             Console.WriteLine("Input {0}'s age: ", age);
             strAge = Console.ReadLine();
 
-            try
+            if (Int32.TryParse(strAge, out age))
             {
-                age = Int32.Parse(strAge);
+                Console.WriteLine("Tomorrow {0} will be {1} old", name, age + 1);
             }
-            catch (FormatException)
+            else 
             {
-
-                Console.WriteLine("Wrong data format!");
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Error!");
+                Console.WriteLine("Invalid format!");
             }
         }
     }
