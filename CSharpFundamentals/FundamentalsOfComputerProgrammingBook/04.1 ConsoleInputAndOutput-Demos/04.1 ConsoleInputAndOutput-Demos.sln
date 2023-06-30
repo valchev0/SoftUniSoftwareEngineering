@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingStrings", "ReadingSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionalSettingsDemo", "RegionalSettingsDemo\RegionalSettingsDemo.csproj", "{DB8175EA-0BEA-42CC-A6FB-347B2C5C3959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseExample", "TryParseExample\TryParseExample.csproj", "{79AF5E85-B53F-4E4A-8048-5115CA4C4C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DB8175EA-0BEA-42CC-A6FB-347B2C5C3959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8175EA-0BEA-42CC-A6FB-347B2C5C3959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8175EA-0BEA-42CC-A6FB-347B2C5C3959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AF5E85-B53F-4E4A-8048-5115CA4C4C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AF5E85-B53F-4E4A-8048-5115CA4C4C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AF5E85-B53F-4E4A-8048-5115CA4C4C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AF5E85-B53F-4E4A-8048-5115CA4C4C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
