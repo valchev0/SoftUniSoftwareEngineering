@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingToConsole", "Printi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingCharacters", "ReadingCharacters\ReadingCharacters.csproj", "{63CB5563-0EA6-4274-9F71-215C359A4B7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingKeys", "ReadingKeys\ReadingKeys.csproj", "{C29F7C6D-4275-42BB-B669-B482FAA6C406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{63CB5563-0EA6-4274-9F71-215C359A4B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63CB5563-0EA6-4274-9F71-215C359A4B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63CB5563-0EA6-4274-9F71-215C359A4B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29F7C6D-4275-42BB-B669-B482FAA6C406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29F7C6D-4275-42BB-B669-B482FAA6C406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29F7C6D-4275-42BB-B669-B482FAA6C406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29F7C6D-4275-42BB-B669-B482FAA6C406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
