@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinusSum", "PlusMinusSu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortThreeNumbersInDescendingOrder", "SortThreeNumbersInDescendingOrder\SortThreeNumbersInDescendingOrder.csproj", "{8A028ACF-9BEC-48D2-BB61-263E78FD2D93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowsDigitAsWord", "ShowsDigitAsWord\ShowsDigitAsWord.csproj", "{1FA7F6DB-4A8C-4170-A4CE-3AA37C75A6D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8A028ACF-9BEC-48D2-BB61-263E78FD2D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A028ACF-9BEC-48D2-BB61-263E78FD2D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A028ACF-9BEC-48D2-BB61-263E78FD2D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA7F6DB-4A8C-4170-A4CE-3AA37C75A6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA7F6DB-4A8C-4170-A4CE-3AA37C75A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA7F6DB-4A8C-4170-A4CE-3AA37C75A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA7F6DB-4A8C-4170-A4CE-3AA37C75A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
