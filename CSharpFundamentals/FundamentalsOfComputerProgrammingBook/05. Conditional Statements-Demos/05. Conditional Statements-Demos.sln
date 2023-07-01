@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatementExample", "IfSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleIfElse", "MultipleIfElse\MultipleIfElse.csproj", "{EF23A0E4-A2FF-42E5-9650-865BC67A4D72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleLabels", "MultipleLabels\MultipleLabels.csproj", "{12F3DD45-0C76-48E0-A14A-1A6CC972AE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedIf", "NestedIf\NestedIf.csproj", "{49800ACD-A094-48EB-9980-A07AAC039F59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EF23A0E4-A2FF-42E5-9650-865BC67A4D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF23A0E4-A2FF-42E5-9650-865BC67A4D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF23A0E4-A2FF-42E5-9650-865BC67A4D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F3DD45-0C76-48E0-A14A-1A6CC972AE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F3DD45-0C76-48E0-A14A-1A6CC972AE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F3DD45-0C76-48E0-A14A-1A6CC972AE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F3DD45-0C76-48E0-A14A-1A6CC972AE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49800ACD-A094-48EB-9980-A07AAC039F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49800ACD-A094-48EB-9980-A07AAC039F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49800ACD-A094-48EB-9980-A07AAC039F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49800ACD-A094-48EB-9980-A07AAC039F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
