@@ -9,7 +9,7 @@ namespace FruitShop
         {
 
 
-            //94/100
+            
 
             string fruit = Console.ReadLine();
             string day = Console.ReadLine();
