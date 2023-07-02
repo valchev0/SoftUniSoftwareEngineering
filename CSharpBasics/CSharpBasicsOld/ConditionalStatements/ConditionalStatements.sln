@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBiggestOfThreeNumbers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestOfFiveNumbers", "GreatestOfFiveNumbers\GreatestOfFiveNumbers.csproj", "{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortThreeNumbersWithNestedIfs", "SortThreeNumbersWithNestedIfs\SortThreeNumbersWithNestedIfs.csproj", "{29199309-8785-4D50-B684-87784D8CD77F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29199309-8785-4D50-B684-87784D8CD77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29199309-8785-4D50-B684-87784D8CD77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29199309-8785-4D50-B684-87784D8CD77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29199309-8785-4D50-B684-87784D8CD77F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
