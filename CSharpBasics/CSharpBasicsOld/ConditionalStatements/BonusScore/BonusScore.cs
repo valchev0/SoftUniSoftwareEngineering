@@ -24,7 +24,7 @@ namespace BonusScore
                     Console.WriteLine(points * 1000);
                     break;
                 default:
-                    Console.WriteLine("Error!");
+                    Console.WriteLine("Invalid score");
                     break;
             }
 
