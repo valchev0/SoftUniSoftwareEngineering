@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationSign", "Multi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBiggestOfThreeNumbers", "TheBiggestOfThreeNumbers\TheBiggestOfThreeNumbers.csproj", "{CF2F74F0-0567-40AB-A743-21DF0B2B18EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestOfFiveNumbers", "GreatestOfFiveNumbers\GreatestOfFiveNumbers.csproj", "{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CF2F74F0-0567-40AB-A743-21DF0B2B18EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2F74F0-0567-40AB-A743-21DF0B2B18EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2F74F0-0567-40AB-A743-21DF0B2B18EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D0EC6-004D-41F1-AEC0-DB913BED65A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
