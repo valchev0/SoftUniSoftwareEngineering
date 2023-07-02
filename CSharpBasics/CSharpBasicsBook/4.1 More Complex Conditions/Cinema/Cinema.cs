@@ -5,24 +5,27 @@ namespace Cinema
     {
         static void Main(string[] args)
         {
+            string ticketTypes = Console.ReadLine();
+            int rows = int.Parse(Console.ReadLine());
+            int columns = int.Parse(Console.ReadLine());
 
-            string day = Console.ReadLine();
+            double places = rows * columns;
 
-            switch (day)
+            switch (ticketTypes)
             {
-                case "Monday":
-                case "Tuesday":
-                case "Friday":
-                    Console.WriteLine(12);
+                case "Premiere":
+                    Console.WriteLine($"{places * 12:f2} leva");
                     break;
-                case "Wednesday":
-                case "Thursday":
-                    Console.WriteLine(14);
+                case "Normal":
+                    Console.WriteLine($"{places * 7.5:f2} leva");
                     break;
-                case "Saturday":
-                case "Sunday":
-                    Console.WriteLine(16);
+                case "Discount":
+                    Console.WriteLine($"{places * 5:f2} leva");
                     break;
+                default:
+                    Console.WriteLine("Error");
+                    break;
+
             }
         }
     }
