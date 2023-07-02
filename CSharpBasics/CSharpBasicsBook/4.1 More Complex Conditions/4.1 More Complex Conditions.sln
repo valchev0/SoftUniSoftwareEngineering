@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop", "FruitShop\Frui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCommissions", "TradeCommissions\TradeCommissions.csproj", "{E5F6013D-4E4B-42D8-89BF-12CCF1381201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{D570BAFF-0980-4340-8F77-655CA7ACD702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalType", "AnimalType\AnimalType.csproj", "{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{E5F6013D-4E4B-42D8-89BF-12CCF1381201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F6013D-4E4B-42D8-89BF-12CCF1381201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F6013D-4E4B-42D8-89BF-12CCF1381201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D570BAFF-0980-4340-8F77-655CA7ACD702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D570BAFF-0980-4340-8F77-655CA7ACD702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D570BAFF-0980-4340-8F77-655CA7ACD702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D570BAFF-0980-4340-8F77-655CA7ACD702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
