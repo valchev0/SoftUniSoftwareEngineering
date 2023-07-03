@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTitles", "PersonalTitles\PersonalTitles.csproj", "{DF722ACB-2D67-44EB-98B0-7967519059DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalTitles", "PersonalTitles\PersonalTitles.csproj", "{DF722ACB-2D67-44EB-98B0-7967519059DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallShop", "SmallShop\SmallShop.csproj", "{A23D0401-9F4F-409B-AB62-D2CFFA561A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallShop", "SmallShop\SmallShop.csproj", "{A23D0401-9F4F-409B-AB62-D2CFFA561A3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointInRectangle", "PointInRectangle\PointInRectangle.csproj", "{E3B57A7F-4AAB-409F-9D66-CE10C6B64704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointInRectangle", "PointInRectangle\PointInRectangle.csproj", "{E3B57A7F-4AAB-409F-9D66-CE10C6B64704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitOrVegetable", "FruitOrVegetable\FruitOrVegetable.csproj", "{9E341E0B-79C5-44A0-8EFB-352F59ED1134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitOrVegetable", "FruitOrVegetable\FruitOrVegetable.csproj", "{9E341E0B-79C5-44A0-8EFB-352F59ED1134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvalidNumber", "InvalidNumber\InvalidNumber.csproj", "{204E50C8-4527-4B09-8C56-87C1AAE07803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvalidNumber", "InvalidNumber\InvalidNumber.csproj", "{204E50C8-4527-4B09-8C56-87C1AAE07803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop", "FruitShop\FruitShop.csproj", "{691D62FF-CCD7-4444-A049-CA99D144F71D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitShop", "FruitShop\FruitShop.csproj", "{691D62FF-CCD7-4444-A049-CA99D144F71D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCommissions", "TradeCommissions\TradeCommissions.csproj", "{E5F6013D-4E4B-42D8-89BF-12CCF1381201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeCommissions", "TradeCommissions\TradeCommissions.csproj", "{E5F6013D-4E4B-42D8-89BF-12CCF1381201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{D570BAFF-0980-4340-8F77-655CA7ACD702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{D570BAFF-0980-4340-8F77-655CA7ACD702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalType", "AnimalType\AnimalType.csproj", "{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalType", "AnimalType\AnimalType.csproj", "{704F6049-5E4F-4E62-BFA7-9CE2B0832F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{FB0A1463-D7F6-4E85-BAC3-39F890DF6BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema", "Cinema\Cinema.csproj", "{FB0A1463-D7F6-4E85-BAC3-39F890DF6BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointAndRectangle", "PointAndRectangle\PointAndRectangle.csproj", "{C08C1897-E1D9-4257-B296-62D015D64AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointAndRectangle", "PointAndRectangle\PointAndRectangle.csproj", "{C08C1897-E1D9-4257-B296-62D015D64AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointInTheFigure", "PointInTheFigure\PointInTheFigure.csproj", "{F170F44A-09FE-4AB0-892E-88168B730459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C08C1897-E1D9-4257-B296-62D015D64AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C08C1897-E1D9-4257-B296-62D015D64AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C08C1897-E1D9-4257-B296-62D015D64AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F170F44A-09FE-4AB0-892E-88168B730459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F170F44A-09FE-4AB0-892E-88168B730459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F170F44A-09FE-4AB0-892E-88168B730459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F170F44A-09FE-4AB0-892E-88168B730459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
