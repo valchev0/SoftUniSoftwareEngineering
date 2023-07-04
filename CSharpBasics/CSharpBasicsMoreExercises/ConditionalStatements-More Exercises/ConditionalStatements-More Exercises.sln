@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportPrice", "Transport
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets", "Pets\Pets.csproj", "{1E6CC748-5408-4D50-83E0-17944EE5132F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShop", "FlowerShop\FlowerShop.csproj", "{3FB3420E-1AA8-4E47-93EF-CF35AA7C5645}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB3420E-1AA8-4E47-93EF-CF35AA7C5645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB3420E-1AA8-4E47-93EF-CF35AA7C5645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB3420E-1AA8-4E47-93EF-CF35AA7C5645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB3420E-1AA8-4E47-93EF-CF35AA7C5645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
