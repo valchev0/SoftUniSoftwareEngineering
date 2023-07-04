@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harvest", "Harvest\Harvest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportPrice", "TransportPrice\TransportPrice.csproj", "{B6CB830D-EF6D-45B5-AE54-77E360C60EE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets", "Pets\Pets.csproj", "{1E6CC748-5408-4D50-83E0-17944EE5132F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B6CB830D-EF6D-45B5-AE54-77E360C60EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6CB830D-EF6D-45B5-AE54-77E360C60EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6CB830D-EF6D-45B5-AE54-77E360C60EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6CC748-5408-4D50-83E0-17944EE5132F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
