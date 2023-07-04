@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShop", "FlowerShop\Fl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelTank", "FuelTank\FuelTank.csproj", "{60BCF0D9-2DE9-4DF6-9A1A-EEA73A7DC854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelTankPartTwo", "FuelTankPartTwo\FuelTankPartTwo.csproj", "{1763F828-D543-42C5-AD97-44CB7E9FBC72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{60BCF0D9-2DE9-4DF6-9A1A-EEA73A7DC854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BCF0D9-2DE9-4DF6-9A1A-EEA73A7DC854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BCF0D9-2DE9-4DF6-9A1A-EEA73A7DC854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1763F828-D543-42C5-AD97-44CB7E9FBC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1763F828-D543-42C5-AD97-44CB7E9FBC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1763F828-D543-42C5-AD97-44CB7E9FBC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1763F828-D543-42C5-AD97-44CB7E9FBC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
