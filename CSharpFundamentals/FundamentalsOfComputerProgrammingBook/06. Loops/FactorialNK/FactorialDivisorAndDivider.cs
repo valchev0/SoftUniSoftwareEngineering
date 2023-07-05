@@ -7,6 +7,7 @@ namespace FactorialDivisorAndDivider
     {
         static void Main(string[] args)
         {
+            //N!/K! 
             int n = int.Parse(Console.ReadLine());
             int k = int.Parse(Console.ReadLine());
             BigInteger divisor = 1;
