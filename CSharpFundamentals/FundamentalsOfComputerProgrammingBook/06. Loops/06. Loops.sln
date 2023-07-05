@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersFromOneToN", "NumbersFromOneToN\NumbersFromOneToN.csproj", "{38D55A89-9A8B-49BD-B805-14BD4A126725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersNotDivisibleByThreeAndSeven", "NumbersNotDivisibleByThreeAndSeven\NumbersNotDivisibleByThreeAndSeven.csproj", "{0A3486B1-B414-4B63-9E77-826B5605195F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{38D55A89-9A8B-49BD-B805-14BD4A126725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D55A89-9A8B-49BD-B805-14BD4A126725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D55A89-9A8B-49BD-B805-14BD4A126725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3486B1-B414-4B63-9E77-826B5605195F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3486B1-B414-4B63-9E77-826B5605195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3486B1-B414-4B63-9E77-826B5605195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3486B1-B414-4B63-9E77-826B5605195F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
