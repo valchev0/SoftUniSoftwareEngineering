@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersNotDivisibleByThreeA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintsSmallestAndLargestNumbers", "PrintsSmallestAndLargestNumbers\PrintsSmallestAndLargestNumbers.csproj", "{C6B28684-0FA5-4729-8739-9C14684A539E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPossibleCardsFromDeck", "AllPossibleCardsFromDeck\AllPossibleCardsFromDeck.csproj", "{245F0372-8469-4A7B-BD3D-B8FC6E603D51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C6B28684-0FA5-4729-8739-9C14684A539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B28684-0FA5-4729-8739-9C14684A539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B28684-0FA5-4729-8739-9C14684A539E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245F0372-8469-4A7B-BD3D-B8FC6E603D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245F0372-8469-4A7B-BD3D-B8FC6E603D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245F0372-8469-4A7B-BD3D-B8FC6E603D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245F0372-8469-4A7B-BD3D-B8FC6E603D51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
