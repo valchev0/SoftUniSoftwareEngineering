@@ -9,7 +9,6 @@ namespace DecimalToBinary
         {
             int n = int.Parse(Console.ReadLine());
             int numCopy = n;
-            int indicator = 0;
             int digit = 0;
             string container = string.Empty;
             string binary = string.Empty;
