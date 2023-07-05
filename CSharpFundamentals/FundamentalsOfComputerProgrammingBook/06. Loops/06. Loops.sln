@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersFromOneToN", "Number
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersNotDivisibleByThreeAndSeven", "NumbersNotDivisibleByThreeAndSeven\NumbersNotDivisibleByThreeAndSeven.csproj", "{0A3486B1-B414-4B63-9E77-826B5605195F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintsSmallestAndLargestNumbers", "PrintsSmallestAndLargestNumbers\PrintsSmallestAndLargestNumbers.csproj", "{C6B28684-0FA5-4729-8739-9C14684A539E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0A3486B1-B414-4B63-9E77-826B5605195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A3486B1-B414-4B63-9E77-826B5605195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3486B1-B414-4B63-9E77-826B5605195F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B28684-0FA5-4729-8739-9C14684A539E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B28684-0FA5-4729-8739-9C14684A539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B28684-0FA5-4729-8739-9C14684A539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B28684-0FA5-4729-8739-9C14684A539E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
