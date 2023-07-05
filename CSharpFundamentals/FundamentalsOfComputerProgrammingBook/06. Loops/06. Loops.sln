@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDivisorAndDivider"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialsSum", "FactorialsSum\FactorialsSum.csproj", "{195199C5-C791-416C-BFE3-244820AA61D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalanNumbers", "CatalanNumbers\CatalanNumbers.csproj", "{658A95E8-6E3F-433B-9FA9-A6DE3D6C62EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{195199C5-C791-416C-BFE3-244820AA61D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195199C5-C791-416C-BFE3-244820AA61D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195199C5-C791-416C-BFE3-244820AA61D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658A95E8-6E3F-433B-9FA9-A6DE3D6C62EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658A95E8-6E3F-433B-9FA9-A6DE3D6C62EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658A95E8-6E3F-433B-9FA9-A6DE3D6C62EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658A95E8-6E3F-433B-9FA9-A6DE3D6C62EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
