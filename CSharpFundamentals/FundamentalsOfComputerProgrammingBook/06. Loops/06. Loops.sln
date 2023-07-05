@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPossibleCardsFromDeck", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumFibonacciSequence", "SumFibonacciSequence\SumFibonacciSequence.csproj", "{7EEFFAC4-6A09-4DF3-B733-E49EFFC7A50B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDivisorAndDivider", "FactorialNK\FactorialDivisorAndDivider.csproj", "{0EDD1423-A7AD-4A8F-9A26-433800769DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7EEFFAC4-6A09-4DF3-B733-E49EFFC7A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EEFFAC4-6A09-4DF3-B733-E49EFFC7A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EEFFAC4-6A09-4DF3-B733-E49EFFC7A50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDD1423-A7AD-4A8F-9A26-433800769DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDD1423-A7AD-4A8F-9A26-433800769DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDD1423-A7AD-4A8F-9A26-433800769DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDD1423-A7AD-4A8F-9A26-433800769DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
