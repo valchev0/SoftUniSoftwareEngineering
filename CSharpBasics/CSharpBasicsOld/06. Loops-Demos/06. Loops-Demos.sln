@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumbers", "HappyNumber
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrime", "IsPrime\IsPrime.csproj", "{0BA3948C-5686-4651-ACDD-93394DC6D17E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power", "Power\Power.csproj", "{FB401742-420B-412F-ADBA-3E1B819B8F64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0BA3948C-5686-4651-ACDD-93394DC6D17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA3948C-5686-4651-ACDD-93394DC6D17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA3948C-5686-4651-ACDD-93394DC6D17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB401742-420B-412F-ADBA-3E1B819B8F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB401742-420B-412F-ADBA-3E1B819B8F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB401742-420B-412F-ADBA-3E1B819B8F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB401742-420B-412F-ADBA-3E1B819B8F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
