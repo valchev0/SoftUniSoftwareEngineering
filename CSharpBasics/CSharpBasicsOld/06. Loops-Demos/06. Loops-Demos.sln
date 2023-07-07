@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachExample", "ForEachEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoops", "ForLoops\ForLoops.csproj", "{8CD36136-8BB7-4535-8AE0-783D9C028E45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumbers", "HappyNumbers\HappyNumbers.csproj", "{A1BE1973-EEDB-4DB9-A219-83AD145502D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8CD36136-8BB7-4535-8AE0-783D9C028E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD36136-8BB7-4535-8AE0-783D9C028E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD36136-8BB7-4535-8AE0-783D9C028E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BE1973-EEDB-4DB9-A219-83AD145502D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BE1973-EEDB-4DB9-A219-83AD145502D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BE1973-EEDB-4DB9-A219-83AD145502D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BE1973-EEDB-4DB9-A219-83AD145502D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
