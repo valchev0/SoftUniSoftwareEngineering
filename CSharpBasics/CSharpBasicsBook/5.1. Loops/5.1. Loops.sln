@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumber", "MaxNumber\MaxN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinNumber", "MinNumber\MinNumber.csproj", "{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftAndRightSum", "LeftAndRightSum\LeftAndRightSum.csproj", "{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
