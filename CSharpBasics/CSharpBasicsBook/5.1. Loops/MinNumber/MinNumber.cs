@@ -7,16 +7,16 @@ namespace MaxNumber
         {
             Console.WriteLine("n = ");
             int n = int.Parse(Console.ReadLine());
-            var max = -100000000000;
+            var min = 100000000000;
             for (int i = 0; i < n; i++)
             {
                 var currentNum = int.Parse(Console.ReadLine());
-                if (max < currentNum)
+                if (min > currentNum)
                 {
-                    max = currentNum;
+                    min = currentNum;
                 }
             }
-            Console.WriteLine("max = {0}", max);
+            Console.WriteLine("min = {0}", min);
         }
     }
 }
