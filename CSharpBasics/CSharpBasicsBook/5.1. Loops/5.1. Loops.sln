@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinLetters", "LatinLetter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{D4146AE0-9C61-4D3B-B901-5955BB836D72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumber", "MaxNumber\MaxNumber.csproj", "{56D122D6-347D-462F-BF0D-52270F3D9320}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D4146AE0-9C61-4D3B-B901-5955BB836D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4146AE0-9C61-4D3B-B901-5955BB836D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4146AE0-9C61-4D3B-B901-5955BB836D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D122D6-347D-462F-BF0D-52270F3D9320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D122D6-347D-462F-BF0D-52270F3D9320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D122D6-347D-462F-BF0D-52270F3D9320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D122D6-347D-462F-BF0D-52270F3D9320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
