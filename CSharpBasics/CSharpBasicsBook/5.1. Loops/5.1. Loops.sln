@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersFrom1To100", "Numbers from 1 to 100\NumbersFrom1To100.csproj", "{9D26EBBA-D4FF-466C-A4DB-F56CF3FBE3BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersFrom1To100", "Numbers from 1 to 100\NumbersFrom1To100.csproj", "{9D26EBBA-D4FF-466C-A4DB-F56CF3FBE3BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersEndingIn7", "NumbersEndingIn7\NumbersEndingIn7.csproj", "{CFF13A46-2CCE-4C09-B62E-EEABF835D5AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersEndingIn7", "NumbersEndingIn7\NumbersEndingIn7.csproj", "{CFF13A46-2CCE-4C09-B62E-EEABF835D5AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinLetters", "LatinLetters\LatinLetters.csproj", "{3FA5CA0E-D500-4460-9F70-71EE94335714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatinLetters", "LatinLetters\LatinLetters.csproj", "{3FA5CA0E-D500-4460-9F70-71EE94335714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{D4146AE0-9C61-4D3B-B901-5955BB836D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{D4146AE0-9C61-4D3B-B901-5955BB836D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumber", "MaxNumber\MaxNumber.csproj", "{56D122D6-347D-462F-BF0D-52270F3D9320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxNumber", "MaxNumber\MaxNumber.csproj", "{56D122D6-347D-462F-BF0D-52270F3D9320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinNumber", "MinNumber\MinNumber.csproj", "{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinNumber", "MinNumber\MinNumber.csproj", "{ABFA44EC-7FAF-4F7A-B0DC-660FA577AA02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftAndRightSum", "LeftAndRightSum\LeftAndRightSum.csproj", "{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftAndRightSum", "LeftAndRightSum\LeftAndRightSum.csproj", "{78112288-74F6-4C7E-8CBF-FB1FD4FB9392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenSum", "OddEvenSum\OddEvenSum.csproj", "{02081767-8508-46F4-B484-AC37807FD749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddEvenSum", "OddEvenSum\OddEvenSum.csproj", "{02081767-8508-46F4-B484-AC37807FD749}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelsSum", "VowelsSum\VowelsSum.csproj", "{CE13411C-C1BA-4F79-A9FA-9F1C524BCD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VowelsSum", "VowelsSum\VowelsSum.csproj", "{CE13411C-C1BA-4F79-A9FA-9F1C524BCD37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalfSumElement", "HalfSumElement\HalfSumElement.csproj", "{B22D04BC-4D62-49A1-A762-30610C07232C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalfSumElement", "HalfSumElement\HalfSumElement.csproj", "{B22D04BC-4D62-49A1-A762-30610C07232C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenPosition", "OddEvenPosition\OddEvenPosition.csproj", "{9D867CE8-E018-4483-83C2-1163B438B66E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{B22D04BC-4D62-49A1-A762-30610C07232C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22D04BC-4D62-49A1-A762-30610C07232C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22D04BC-4D62-49A1-A762-30610C07232C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D867CE8-E018-4483-83C2-1163B438B66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D867CE8-E018-4483-83C2-1163B438B66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D867CE8-E018-4483-83C2-1163B438B66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D867CE8-E018-4483-83C2-1163B438B66E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
