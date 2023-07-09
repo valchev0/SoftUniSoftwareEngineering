@@ -49,21 +49,52 @@ namespace MovingStar
             while (true)
             {
                 ClearStar();
+                ReadInput();
                 UpdateStarData();
                 DrawStar();
                 Thread.Sleep(200);
             }
         }
 
+        static void ReadInput()
+        {
+            if (Console.KeyAvailable)
+            {
+                ConsoleKeyInfo userInput = Console.ReadKey();
+                while (Console.KeyAvailable)
+                {
+                    Console.ReadKey(true);
+                }
+
+                if (userInput.Key == ConsoleKey.DownArrow && star.Position.x < WindowHeight - 1)
+                {
+                    xVelocity = 1;
+                    yVelocity = 0;
+                }
+                if (userInput.Key == ConsoleKey.UpArrow)
+                {
+                    xVelocity = -1;
+                    yVelocity = 0;
+                }
+                if (userInput.Key == ConsoleKey.LeftArrow)
+                {
+                    xVelocity = 0;
+                    yVelocity = -1;
+                }
+                if (userInput.Key == ConsoleKey.RightArrow)
+                {
+                    xVelocity = 0;
+                    yVelocity = 1;
+                }
+            }
+        }
         static void UpdateStarData()
         {
-            // TODO: Check if the star is the lower right corner and adjust velocities
-            // TODO: Check if the star is the upper right corner and adjust velocities
-            // TODO: Check if the star is the upper left corner and adjust velocities
-            // TODO: Check if the star is the lower left corner and adjust velocities
-
             star.Position.x += xVelocity;
             star.Position.y += yVelocity;
+
+            xVelocity = 0;
+            yVelocity = 0;
         }
 
         static void ClearStar()
