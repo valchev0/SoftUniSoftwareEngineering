@@ -9,14 +9,23 @@ namespace TriangleOfDollars
             int n = int.Parse(Console.ReadLine());
             for (int rows = 0; rows < n; rows++)
             {
-                Console.Write("$");
-                for (int cols = 0; cols < rows; cols++)
+                for (int cols = 0; cols < n; cols++)
                 {
-                    Console.Write(" $");
-                    //if (cols != (n - 1))
-                    //{
-                    //    Console.Write(" ");
-                    //}
+                    if (cols == 0 || cols == n - 1)
+                    {
+                        if (rows != 0 && rows != n - 1)
+                        {
+                            Console.Write("| ");
+                        }
+                        else
+                        {
+                            Console.Write("+ ");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("- ");
+                    }
                 }
                 Console.WriteLine();
             }
