@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasTree", "ChristmasT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunglasses", "Sunglasses\Sunglasses.csproj", "{44C53CBF-98FF-4DF9-8259-6E5AFD557967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "House\House.csproj", "{D9BF7279-5950-449C-8500-F6D49B700052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{44C53CBF-98FF-4DF9-8259-6E5AFD557967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C53CBF-98FF-4DF9-8259-6E5AFD557967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C53CBF-98FF-4DF9-8259-6E5AFD557967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BF7279-5950-449C-8500-F6D49B700052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BF7279-5950-449C-8500-F6D49B700052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BF7279-5950-449C-8500-F6D49B700052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BF7279-5950-449C-8500-F6D49B700052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

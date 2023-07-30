@@ -54,6 +54,6 @@ namespace Sunglasses
                     }
                 }
                 Console.WriteLine();
-            }
+        }   }
     }
 }
