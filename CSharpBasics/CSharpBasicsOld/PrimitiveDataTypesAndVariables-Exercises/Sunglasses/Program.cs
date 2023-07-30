@@ -1,57 +1,63 @@
 ﻿using System;
 
-class Sunglasses
+namespace Sunglasses
 {
-    static void Main()
+    internal class Sunglasses
     {
-        int n = int.Parse(Console.ReadLine());
-
-        for (int row = 0; row < n; row++)
+        static void Main(string[] args)
         {
-            for (int leftFrame = 0; leftFrame < 2 * n; leftFrame++)
+            int n = int.Parse(Console.ReadLine());
+
+            for (int row = 0; row < n; row++)
             {
-                if (row == 0 || row == n - 1)
+                for (int leftFrame = 0; leftFrame < 2 * n; leftFrame++)
                 {
-                    Console.Write("*");
+                    if (row == 0 || row == n - 1)
+                    {
+                        Console.Write("*");
+                    }
+                    //int spaces = ((2 * n) - 1) - row - 1;
+                    else if (leftFrame == 0 || leftFrame == ((2 * n) - 1))
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write("/");
+                    }
                 }
-                //int spaces = ((2 * n) - 1) - row - 1;
-                else if (leftFrame == 0 || leftFrame == ((2 * n) - 1))
+                for (int bridge = 0; bridge < n; bridge++)
                 {
-                    Console.Write("*");
+                    if ((row == n / 2) &&(n % 2 == 1))
+                    {
+                        Console.Write("|");
+                    }
+                    else if ((row == (n - 1) / 2) && (n % 2 == 0))
+                    {
+                        Console.Write("|");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
                 }
-                else
+                for (int rightFrame = 0; rightFrame < 2 * n; rightFrame++)
                 {
-                    Console.Write("/");
+                    if (row == 0 || row == n - 1)
+                    {
+                        Console.Write("*");
+                    }
+                    //int spaces = ((2 * n) - 1) - row - 1;
+                    else if (rightFrame == 0 || rightFrame == ((2 * n) - 1))
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write("/");
+                    }
                 }
-            }
-            for (int bridge = 0; bridge < n; bridge++)
-            {
-                if (row == n/2)
-                {
-                    Console.Write("|");
-                }
-                else
-                {
-                    Console.Write(" ");
-                }
-            }
-            for (int rightFrame = 0; rightFrame < 2 * n; rightFrame++)
-            {
-                if (row == 0 || row == n - 1)
-                {
-                    Console.Write("*");
-                }
-                //int spaces = ((2 * n) - 1) - row - 1;
-                else if (rightFrame == 0 || rightFrame == ((2 * n) - 1))
-                {
-                    Console.Write("*");
-                }
-                else
-                {
-                    Console.Write("/");
-                }
-            }
-            Console.WriteLine();
-        }
+                Console.WriteLine();
+        }   }
     }
 }

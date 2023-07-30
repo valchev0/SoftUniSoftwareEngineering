@@ -28,7 +28,11 @@ namespace Sunglasses
                 }
                 for (int bridge = 0; bridge < n; bridge++)
                 {
-                    if (row == n / 2)
+                    if ((row == n / 2) &&(n % 2 == 1))
+                    {
+                        Console.Write("|");
+                    }
+                    else if ((row == (n - 1) / 2) && (n % 2 == 0))
                     {
                         Console.Write("|");
                     }
