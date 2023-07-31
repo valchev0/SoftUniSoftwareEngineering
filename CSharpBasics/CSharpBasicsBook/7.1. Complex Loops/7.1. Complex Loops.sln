@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersOneNwithStepThree", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersNToOne", "NumbersNToOne\NumbersNToOne.csproj", "{477A17A1-CD07-49A9-91BD-E720A4B339EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowersOfTwo", "PowersOfTwo\PowersOfTwo.csproj", "{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{477A17A1-CD07-49A9-91BD-E720A4B339EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477A17A1-CD07-49A9-91BD-E720A4B339EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477A17A1-CD07-49A9-91BD-E720A4B339EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
