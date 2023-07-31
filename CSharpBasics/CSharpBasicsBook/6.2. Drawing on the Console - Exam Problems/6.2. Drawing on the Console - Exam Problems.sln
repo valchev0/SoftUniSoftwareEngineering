@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butterfly", "Butterfly\Butt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stop", "Stop\Stop.csproj", "{6E74EF7D-CE3F-4A9B-AF00-D2A43ACFE89E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrow", "Arrow\Arrow.csproj", "{66624750-904A-476F-A5A1-B4D5696EF949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6E74EF7D-CE3F-4A9B-AF00-D2A43ACFE89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E74EF7D-CE3F-4A9B-AF00-D2A43ACFE89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E74EF7D-CE3F-4A9B-AF00-D2A43ACFE89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66624750-904A-476F-A5A1-B4D5696EF949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66624750-904A-476F-A5A1-B4D5696EF949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66624750-904A-476F-A5A1-B4D5696EF949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66624750-904A-476F-A5A1-B4D5696EF949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
