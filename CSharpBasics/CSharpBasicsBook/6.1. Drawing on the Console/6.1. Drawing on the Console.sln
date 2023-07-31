@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleOfDollars", "Triang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RhombusOfStars", "RhombusOfStars\RhombusOfStars.csproj", "{70F16342-7D6C-4046-ADE7-E991036CCA5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasTree", "ChristmasTree\ChristmasTree.csproj", "{894FDC7B-A07C-4069-B928-6DC92C779658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChristmasTree", "ChristmasTree\ChristmasTree.csproj", "{894FDC7B-A07C-4069-B928-6DC92C779658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunglasses", "Sunglasses\Sunglasses.csproj", "{44C53CBF-98FF-4DF9-8259-6E5AFD557967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunglasses", "Sunglasses\Sunglasses.csproj", "{44C53CBF-98FF-4DF9-8259-6E5AFD557967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "House\House.csproj", "{D9BF7279-5950-449C-8500-F6D49B700052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "House", "House\House.csproj", "{D9BF7279-5950-449C-8500-F6D49B700052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond", "Diamond\Diamond.csproj", "{09D5148F-6DB1-41E5-858D-A18F3845DEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond", "Diamond\Diamond.csproj", "{09D5148F-6DB1-41E5-858D-A18F3845DEA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
