@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowersOfTwo", "PowersOfTwo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenPowersOfTwo", "EvenPowersOfTwo\EvenPowersOfTwo.csproj", "{53A96AE8-B800-42FE-8154-26E3776F24DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence2k+1", "Sequence2k+1\Sequence2k+1.csproj", "{0E108978-00F3-4F03-8D47-1280645C2FA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{53A96AE8-B800-42FE-8154-26E3776F24DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A96AE8-B800-42FE-8154-26E3776F24DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A96AE8-B800-42FE-8154-26E3776F24DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
