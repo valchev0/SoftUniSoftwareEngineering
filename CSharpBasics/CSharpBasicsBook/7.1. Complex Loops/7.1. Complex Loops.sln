@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersOneNwithStepThree", "NumbersOneNwithStepThree\NumbersOneNwithStepThree.csproj", "{765BCAAE-E25B-4949-AE4F-A45D6BB62CB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersOneNwithStepThree", "NumbersOneNwithStepThree\NumbersOneNwithStepThree.csproj", "{765BCAAE-E25B-4949-AE4F-A45D6BB62CB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersNToOne", "NumbersNToOne\NumbersNToOne.csproj", "{477A17A1-CD07-49A9-91BD-E720A4B339EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersNToOne", "NumbersNToOne\NumbersNToOne.csproj", "{477A17A1-CD07-49A9-91BD-E720A4B339EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowersOfTwo", "PowersOfTwo\PowersOfTwo.csproj", "{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowersOfTwo", "PowersOfTwo\PowersOfTwo.csproj", "{5AE3DA04-CD6A-474C-8886-8B89BB357EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenPowersOfTwo", "EvenPowersOfTwo\EvenPowersOfTwo.csproj", "{53A96AE8-B800-42FE-8154-26E3776F24DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenPowersOfTwo", "EvenPowersOfTwo\EvenPowersOfTwo.csproj", "{53A96AE8-B800-42FE-8154-26E3776F24DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence2k+1", "Sequence2k+1\Sequence2k+1.csproj", "{0E108978-00F3-4F03-8D47-1280645C2FA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequence2k+1", "Sequence2k+1\Sequence2k+1.csproj", "{0E108978-00F3-4F03-8D47-1280645C2FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInRange1To100", "NumberInRange1To100\NumberInRange1To100.csproj", "{10FAEE2E-533B-4CF8-BB6C-FF624849C4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E108978-00F3-4F03-8D47-1280645C2FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FAEE2E-533B-4CF8-BB6C-FF624849C4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FAEE2E-533B-4CF8-BB6C-FF624849C4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FAEE2E-533B-4CF8-BB6C-FF624849C4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FAEE2E-533B-4CF8-BB6C-FF624849C4A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
