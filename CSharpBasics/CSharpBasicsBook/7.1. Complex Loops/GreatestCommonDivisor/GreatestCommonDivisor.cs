@@ -10,7 +10,6 @@ namespace GreatestCommonDivisor
             int b = int.Parse(Console.ReadLine());
             int min = Math.Min(a, b);
             int gcd = 0;
-
             for (int i = 1; i <= min; i++)
             {
                 if ((a % i == 0) && (b % i == 0))
