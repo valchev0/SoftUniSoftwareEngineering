@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakSum", "BreakSum\BreakS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterEvenNumberWithTextInput", "EnterEvenNumberWithTextInput\EnterEvenNumberWithTextInput.csproj", "{DE3BEA69-1EC1-45D5-94D9-98A92F7FF1B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{EF688729-4CEA-4BDE-BC0A-A875FF041F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{DE3BEA69-1EC1-45D5-94D9-98A92F7FF1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3BEA69-1EC1-45D5-94D9-98A92F7FF1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3BEA69-1EC1-45D5-94D9-98A92F7FF1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF688729-4CEA-4BDE-BC0A-A875FF041F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF688729-4CEA-4BDE-BC0A-A875FF041F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF688729-4CEA-4BDE-BC0A-A875FF041F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF688729-4CEA-4BDE-BC0A-A875FF041F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
