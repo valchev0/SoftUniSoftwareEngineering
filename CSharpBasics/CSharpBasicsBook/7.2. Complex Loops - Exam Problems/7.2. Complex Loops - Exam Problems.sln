@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidPasswordGenerator", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCombination", "MagicCombination\MagicCombination.csproj", "{542E4A66-8764-42A5-8D24-D954BDE6D9D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopNumber", "StopNumber\StopNumber.csproj", "{8CDA74F4-360F-4BED-B76E-7B1194B09ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDA74F4-360F-4BED-B76E-7B1194B09ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDA74F4-360F-4BED-B76E-7B1194B09ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDA74F4-360F-4BED-B76E-7B1194B09ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDA74F4-360F-4BED-B76E-7B1194B09ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
