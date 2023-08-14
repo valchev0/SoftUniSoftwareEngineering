@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidPasswordGenerator", "StupidPasswordGenerator\StupidPasswordGenerator.csproj", "{DF8B7F88-A6D4-4D3B-AE35-B09794BEFDE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCombination", "MagicCombination\MagicCombination.csproj", "{542E4A66-8764-42A5-8D24-D954BDE6D9D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DF8B7F88-A6D4-4D3B-AE35-B09794BEFDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8B7F88-A6D4-4D3B-AE35-B09794BEFDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8B7F88-A6D4-4D3B-AE35-B09794BEFDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542E4A66-8764-42A5-8D24-D954BDE6D9D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
