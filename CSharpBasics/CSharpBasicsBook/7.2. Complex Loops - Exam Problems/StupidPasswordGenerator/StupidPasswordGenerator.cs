@@ -13,13 +13,13 @@ namespace StupidPasswordGenerator
             {
                 for (int j = 1; j < firstNum; j++)
                 {
-                    for(int k = 97; k < 97 + secondNum; k++)
+                    for(char k = 'a'; k < 'a' + secondNum; k++)
                     {
                         for (int l = 97; l < 97 + secondNum; l++)
                         {
                             for (int m = Math.Max(i, j) + 1; m <= firstNum; m++)
                             {
-                                Console.Write($"{i}{j}{(char)k}{(char)l}{m} ");
+                                Console.Write($"{i}{j}{k}{(char)l}{m} ");
                             }
                         }
                     }
