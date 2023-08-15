@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopNumber", "StopNumber\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialNumbers", "SpecialNumbers\SpecialNumbers.csproj", "{B41C033B-B78A-4846-AC1B-934BD26C1E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits", "Digits\Digits.csproj", "{8BFA60BE-2FBF-4757-956D-125BF99DDF47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B41C033B-B78A-4846-AC1B-934BD26C1E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B41C033B-B78A-4846-AC1B-934BD26C1E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B41C033B-B78A-4846-AC1B-934BD26C1E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFA60BE-2FBF-4757-956D-125BF99DDF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFA60BE-2FBF-4757-956D-125BF99DDF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFA60BE-2FBF-4757-956D-125BF99DDF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFA60BE-2FBF-4757-956D-125BF99DDF47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
