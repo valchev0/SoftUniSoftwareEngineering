@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOnSegment", "PointOnSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointInFigure", "PointInFigure\PointInFigure.csproj", "{1897FC2D-9AA2-4025-9615-E73BEFB7A75F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAfterFiveDays", "DateAfterFiveDays\DateAfterFiveDays.csproj", "{F075228F-2EC9-4535-9F20-9D476DB076B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1897FC2D-9AA2-4025-9615-E73BEFB7A75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1897FC2D-9AA2-4025-9615-E73BEFB7A75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1897FC2D-9AA2-4025-9615-E73BEFB7A75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F075228F-2EC9-4535-9F20-9D476DB076B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F075228F-2EC9-4535-9F20-9D476DB076B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F075228F-2EC9-4535-9F20-9D476DB076B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F075228F-2EC9-4535-9F20-9D476DB076B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
