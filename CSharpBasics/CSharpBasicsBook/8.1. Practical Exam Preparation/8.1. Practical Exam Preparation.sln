@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointInFigure", "PointInFig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateAfterFiveDays", "DateAfterFiveDays\DateAfterFiveDays.csproj", "{F075228F-2EC9-4535-9F20-9D476DB076B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumsThreeNumbers", "SumsThreeNumbers\SumsThreeNumbers.csproj", "{22A23E8A-298B-461B-8800-BB47421F8083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumsThreeNumbers", "SumsThreeNumbers\SumsThreeNumbers.csproj", "{22A23E8A-298B-461B-8800-BB47421F8083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumsStepThree", "SumsStepThree\SumsStepThree.csproj", "{88668B6A-E4DB-4430-B60C-F2747610F037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumsStepThree", "SumsStepThree\SumsStepThree.csproj", "{88668B6A-E4DB-4430-B60C-F2747610F037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingElements", "IncreasingElements\IncreasingElements.csproj", "{EE86D66F-8BE5-4870-9C32-F02659BB02D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncreasingElements", "IncreasingElements\IncreasingElements.csproj", "{EE86D66F-8BE5-4870-9C32-F02659BB02D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectDiamond", "PerfectDiamond\PerfectDiamond.csproj", "{80890E16-2631-4F97-84DD-F48CFA940CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectDiamond", "PerfectDiamond\PerfectDiamond.csproj", "{80890E16-2631-4F97-84DD-F48CFA940CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleWithStars", "RectangleWithStars\RectangleWithStars.csproj", "{88D8639A-159F-43C4-A442-F0829A6C5B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{80890E16-2631-4F97-84DD-F48CFA940CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80890E16-2631-4F97-84DD-F48CFA940CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80890E16-2631-4F97-84DD-F48CFA940CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
