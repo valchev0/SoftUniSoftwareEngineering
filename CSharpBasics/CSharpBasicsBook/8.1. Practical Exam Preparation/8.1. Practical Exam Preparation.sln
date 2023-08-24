@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectDiamond", "PerfectDi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleWithStars", "RectangleWithStars\RectangleWithStars.csproj", "{88D8639A-159F-43C4-A442-F0829A6C5B3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingFourNumbers", "IncreasingFourNumbers\IncreasingFourNumbers.csproj", "{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D8639A-159F-43C4-A442-F0829A6C5B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
