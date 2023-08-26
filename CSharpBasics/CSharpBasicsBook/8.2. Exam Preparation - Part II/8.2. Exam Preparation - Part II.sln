@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Grades\Grades.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasHat", "ChristmasHat\ChristmasHat.csproj", "{E0D11C45-3E2D-47B7-8583-E665E3100341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersCombinations", "LettersCombinations\LettersCombinations.csproj", "{C661267A-CA34-48E4-B9F3-DD82FF458195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E0D11C45-3E2D-47B7-8583-E665E3100341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D11C45-3E2D-47B7-8583-E665E3100341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D11C45-3E2D-47B7-8583-E665E3100341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C661267A-CA34-48E4-B9F3-DD82FF458195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C661267A-CA34-48E4-B9F3-DD82FF458195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C661267A-CA34-48E4-B9F3-DD82FF458195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C661267A-CA34-48E4-B9F3-DD82FF458195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
