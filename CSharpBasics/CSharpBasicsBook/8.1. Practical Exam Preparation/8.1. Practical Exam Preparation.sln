@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncreasingElements", "Incre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectDiamond", "PerfectDiamond\PerfectDiamond.csproj", "{80890E16-2631-4F97-84DD-F48CFA940CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleWithStars", "RectangleWithStars\RectangleWithStars.csproj", "{88D8639A-159F-43C4-A442-F0829A6C5B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleWithStars", "RectangleWithStars\RectangleWithStars.csproj", "{88D8639A-159F-43C4-A442-F0829A6C5B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingFourNumbers", "IncreasingFourNumbers\IncreasingFourNumbers.csproj", "{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncreasingFourNumbers", "IncreasingFourNumbers\IncreasingFourNumbers.csproj", "{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateRectangles", "GenerateRectangles\GenerateRectangles.csproj", "{3D9590F3-7FAF-4AD5-AB4F-96F011452802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3EB1346-A8EB-4F3B-B29D-2F3C8AFBA1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9590F3-7FAF-4AD5-AB4F-96F011452802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9590F3-7FAF-4AD5-AB4F-96F011452802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9590F3-7FAF-4AD5-AB4F-96F011452802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9590F3-7FAF-4AD5-AB4F-96F011452802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
