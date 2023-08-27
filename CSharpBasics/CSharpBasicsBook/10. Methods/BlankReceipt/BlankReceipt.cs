@@ -6,10 +6,10 @@ namespace BlankReceipt
     {
         static void Main(string[] args)
         {
-            PrintReceiotHeader();
+            PrintReceipt();
         }
 
-        private static void PrintReceiotHeader()
+        private static void PrintReceipt()
         {
             Console.WriteLine("CASH RECEIPT\r\n------------------------------\r" +
                             "\nCharged to____________________\r\nReceived by___________________\r" +
