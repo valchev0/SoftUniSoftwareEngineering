@@ -5,25 +5,27 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankReceipt", "BlankReceipt\BlankReceipt.csproj", "{87A4E1C2-1D90-47A6-8FB8-3E00AC61704F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignOfIntegerNumber", "SignOfIntegerNumber\SignOfIntegerNumber.csproj", "{969355E1-07D2-44BE-9424-B91F33D5C692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignOfIntegerNumber", "SignOfIntegerNumber\SignOfIntegerNumber.csproj", "{969355E1-07D2-44BE-9424-B91F33D5C692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{24B02315-111B-46DB-B300-0605AA795B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{24B02315-111B-46DB-B300-0605AA795B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawFilledSquare", "DrawFilledSquare\DrawFilledSquare.csproj", "{2D262DDD-6FF5-49AD-A559-096FCD8A9CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawFilledSquare", "DrawFilledSquare\DrawFilledSquare.csproj", "{2D262DDD-6FF5-49AD-A559-096FCD8A9CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTriangleArea", "CalculateTriangleArea\CalculateTriangleArea.csproj", "{A2414DAA-32A5-497F-A63E-666109040AC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTriangleArea", "CalculateTriangleArea\CalculateTriangleArea.csproj", "{A2414DAA-32A5-497F-A63E-666109040AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPower", "MathPower\MathPower.csproj", "{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathPower", "MathPower\MathPower.csproj", "{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{9A76DD8E-17F5-4096-A1BA-A89192A149B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreaterOfTwoValues", "GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{9A76DD8E-17F5-4096-A1BA-A89192A149B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\HelloName.csproj", "{3E80CF35-777E-4E23-8585-03074FA2112A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloName", "HelloName\HelloName.csproj", "{3E80CF35-777E-4E23-8585-03074FA2112A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMethod", "MinMethod\MinMethod.csproj", "{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMethod", "MinMethod\MinMethod.csproj", "{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRepeater", "StringRepeater\StringRepeater.csproj", "{A34ED897-A009-49C6-B9EA-E88BAA80686B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringRepeater", "StringRepeater\StringRepeater.csproj", "{A34ED897-A009-49C6-B9EA-E88BAA80686B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthDigit", "NthDigit\NthDigit.csproj", "{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NthDigit", "NthDigit\NthDigit.csproj", "{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{185AFF0A-072E-4937-8305-A4166C1FF3F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185AFF0A-072E-4937-8305-A4166C1FF3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185AFF0A-072E-4937-8305-A4166C1FF3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185AFF0A-072E-4937-8305-A4166C1FF3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185AFF0A-072E-4937-8305-A4166C1FF3F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

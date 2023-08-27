@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloName
+namespace IntegerToBase
 {
     internal class GreaterOfTwoValues
     {
