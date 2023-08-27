@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GreaterOfTwoValues
+namespace HelloName
 {
     internal class GreaterOfTwoValues
     {
