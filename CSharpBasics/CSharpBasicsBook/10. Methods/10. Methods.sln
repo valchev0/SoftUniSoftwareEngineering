@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\Hell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMethod", "MinMethod\MinMethod.csproj", "{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRepeater", "StringRepeater\StringRepeater.csproj", "{A34ED897-A009-49C6-B9EA-E88BAA80686B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E0437AA-14A4-4241-A0F7-9C8BBD2DCE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
