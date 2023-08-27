@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTriangleArea", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPower", "MathPower\MathPower.csproj", "{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{9A76DD8E-17F5-4096-A1BA-A89192A149B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70C20FE7-08C2-495E-AA9D-94C8B7DBBA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A76DD8E-17F5-4096-A1BA-A89192A149B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A76DD8E-17F5-4096-A1BA-A89192A149B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A76DD8E-17F5-4096-A1BA-A89192A149B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A76DD8E-17F5-4096-A1BA-A89192A149B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
