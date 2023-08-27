@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DrawFilledSquare
+namespace MathPower
 {
     internal class DrawFilledSquare
     {

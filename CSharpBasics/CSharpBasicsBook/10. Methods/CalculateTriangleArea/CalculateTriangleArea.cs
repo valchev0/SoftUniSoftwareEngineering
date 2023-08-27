@@ -9,13 +9,14 @@ namespace CalculateTriangleArea
             PrintArea();
         }
 
-        private static void PrintArea()
+        private static int PrintArea()
         {
             int side = int.Parse(Console.ReadLine());
             int height = int.Parse(Console.ReadLine());
 
             int area = (side * height) / 2;
             Console.WriteLine(area);
+            return area;
         }
     }
 }
