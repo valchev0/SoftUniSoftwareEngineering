@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMethod", "MinMethod\MinM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRepeater", "StringRepeater\StringRepeater.csproj", "{A34ED897-A009-49C6-B9EA-E88BAA80686B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthDigit", "NthDigit\NthDigit.csproj", "{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34ED897-A009-49C6-B9EA-E88BAA80686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6E598E-EB86-458E-B842-0BC6DCCB17DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
