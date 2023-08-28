@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continue", "Continue\Contin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{6E9D3534-738F-4FCA-A260-6135C543B9FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDoWhile", "FactorialDoWhile\FactorialDoWhile.csproj", "{A44CA97E-2CBE-4AE0-B320-A649149EFC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E9D3534-738F-4FCA-A260-6135C543B9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9D3534-738F-4FCA-A260-6135C543B9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9D3534-738F-4FCA-A260-6135C543B9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44CA97E-2CBE-4AE0-B320-A649149EFC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44CA97E-2CBE-4AE0-B320-A649149EFC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44CA97E-2CBE-4AE0-B320-A649149EFC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44CA97E-2CBE-4AE0-B320-A649149EFC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
