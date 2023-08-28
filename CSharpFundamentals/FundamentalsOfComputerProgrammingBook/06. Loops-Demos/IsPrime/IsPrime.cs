@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IsPrime
+namespace Power
 {
     internal class IsPrime
     {
