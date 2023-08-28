@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toto", "Toto\Toto.csproj", "{3C5906EE-3BC2-4075-8BD0-2A91B2148AF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{0FE28686-0439-400B-B816-3521A7567BE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3C5906EE-3BC2-4075-8BD0-2A91B2148AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5906EE-3BC2-4075-8BD0-2A91B2148AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5906EE-3BC2-4075-8BD0-2A91B2148AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE28686-0439-400B-B816-3521A7567BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE28686-0439-400B-B816-3521A7567BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE28686-0439-400B-B816-3521A7567BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE28686-0439-400B-B816-3521A7567BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
