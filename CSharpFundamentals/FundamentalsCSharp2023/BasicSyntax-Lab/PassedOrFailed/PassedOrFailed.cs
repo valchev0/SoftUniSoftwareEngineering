@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Passed
+namespace PassedOrFailed
 {
-    internal class Passed
+    internal class PassedOrFailed
     {
         static void Main(string[] args)
         {
@@ -11,6 +11,10 @@ namespace Passed
             if (grade >= 3)
             {
                 Console.WriteLine("Passed!");
+            }
+            else
+            {
+                Console.WriteLine("Failed!");
             }
         }
     }
