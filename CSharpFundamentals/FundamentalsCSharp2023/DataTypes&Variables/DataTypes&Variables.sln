@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialNumbers", "SpecialNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedChars", "ReversedChars\ReversedChars.csproj", "{A1FCD265-45E3-4A7A-9C22-479ECBCDD549}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatNames", "ConcatNames\ConcatNames.csproj", "{9EE4B8FA-2F12-4A61-8F1D-9598E1B50ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A1FCD265-45E3-4A7A-9C22-479ECBCDD549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FCD265-45E3-4A7A-9C22-479ECBCDD549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1FCD265-45E3-4A7A-9C22-479ECBCDD549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE4B8FA-2F12-4A61-8F1D-9598E1B50ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE4B8FA-2F12-4A61-8F1D-9598E1B50ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE4B8FA-2F12-4A61-8F1D-9598E1B50ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE4B8FA-2F12-4A61-8F1D-9598E1B50ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
