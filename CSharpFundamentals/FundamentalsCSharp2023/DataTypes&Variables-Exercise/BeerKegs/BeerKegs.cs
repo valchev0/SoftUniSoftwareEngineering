@@ -1,10 +1,27 @@
-﻿namespace BeerKegs
+﻿using System;
+
+namespace BeerKegs
 {
-    internal class Program
+    internal class BeerKegs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string biggestModelName = string.Empty;
+            double biggestModelSize = double.MinValue;
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                string model = Console.ReadLine();
+                float radius = float.Parse(Console.ReadLine());
+                int height = int.Parse(Console.ReadLine());
+                double size = Math.PI * Math.Pow(radius, 2) * height;
+                if (size > biggestModelSize)
+                {
+                    biggestModelName = model;
+                    biggestModelSize = size;
+                }
+            }
+            Console.WriteLine(biggestModelName);
         }
     }
 }

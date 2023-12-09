@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintPartOfASCIITable", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriplesOfLatinLetters", "TriplesOfLatinLetters\TriplesOfLatinLetters.csproj", "{EC10F33A-4929-4C17-9A92-D1AE6653BC12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{781F1248-EB90-4D81-92B3-42CC519B61A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{781F1248-EB90-4D81-92B3-42CC519B61A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterOverflow", "WaterOverflow\WaterOverflow.csproj", "{EB91808F-7E06-4744-B0BF-2C93030DDB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerKegs", "BeerKegs\BeerKegs.csproj", "{DE5C127B-E989-4819-9C4E-112AFC38BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceMustFlow", "SpiceMustFlow\SpiceMustFlow.csproj", "{41D3231C-2E9A-4FBC-98E1-E42B442FA68B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{781F1248-EB90-4D81-92B3-42CC519B61A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781F1248-EB90-4D81-92B3-42CC519B61A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781F1248-EB90-4D81-92B3-42CC519B61A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB91808F-7E06-4744-B0BF-2C93030DDB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB91808F-7E06-4744-B0BF-2C93030DDB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB91808F-7E06-4744-B0BF-2C93030DDB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB91808F-7E06-4744-B0BF-2C93030DDB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5C127B-E989-4819-9C4E-112AFC38BD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5C127B-E989-4819-9C4E-112AFC38BD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5C127B-E989-4819-9C4E-112AFC38BD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5C127B-E989-4819-9C4E-112AFC38BD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D3231C-2E9A-4FBC-98E1-E42B442FA68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D3231C-2E9A-4FBC-98E1-E42B442FA68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D3231C-2E9A-4FBC-98E1-E42B442FA68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D3231C-2E9A-4FBC-98E1-E42B442FA68B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
