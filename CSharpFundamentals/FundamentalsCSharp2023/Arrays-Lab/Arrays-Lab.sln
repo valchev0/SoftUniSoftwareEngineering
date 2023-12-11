@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{B1BFE8AB-1925-41D0-8FEA-829E750AA02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{B1BFE8AB-1925-41D0-8FEA-829E750AA02C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintNumbersInReverseOrder", "PrintNumbersInReverseOrder\PrintNumbersInReverseOrder.csproj", "{06A64E03-469C-4646-A291-64FCAB944B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintNumbersInReverseOrder", "PrintNumbersInReverseOrder\PrintNumbersInReverseOrder.csproj", "{06A64E03-469C-4646-A291-64FCAB944B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingNumbers", "RoundingNumbers\RoundingNumbers.csproj", "{673D28FC-4DE7-48D2-8B02-260CA315D60F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundingNumbers", "RoundingNumbers\RoundingNumbers.csproj", "{673D28FC-4DE7-48D2-8B02-260CA315D60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArrayOfStrings", "ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{C58BBE35-C3FC-4920-B8DF-07B963601BFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{673D28FC-4DE7-48D2-8B02-260CA315D60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673D28FC-4DE7-48D2-8B02-260CA315D60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673D28FC-4DE7-48D2-8B02-260CA315D60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58BBE35-C3FC-4920-B8DF-07B963601BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58BBE35-C3FC-4920-B8DF-07B963601BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58BBE35-C3FC-4920-B8DF-07B963601BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58BBE35-C3FC-4920-B8DF-07B963601BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
