@@ -6,27 +6,29 @@ namespace Even_OddSubtraction
     {
         static void Main(string[] args)
         {
-            int[] arr = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+            int[] numsArray = Console.ReadLine()
+            .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+            .Select(int.Parse)
+            .ToArray();
+
             int evenSum = 0;
             int oddSum = 0;
-            int diffrence = 0;
 
-            for (int i = 0; i < arr.Length; i++)
+            foreach (var num in numsArray)
             {
-                if (arr[i] % 2 == 0) 
+                if (num % 2 == 0)
                 {
-                    evenSum += arr[i];
+                    evenSum += num;
                 }
                 else
                 {
-                    oddSum += arr[i];
+                    oddSum += num;
                 }
             }
-            diffrence = evenSum - oddSum;
-            Console.WriteLine(diffrence);
+
+            int result = evenSum - oddSum;
+
+            Console.WriteLine(result);
 
         }
     }
