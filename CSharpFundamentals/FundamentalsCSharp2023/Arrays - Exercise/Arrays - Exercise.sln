@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train", "Train\Train.csproj", "{06D3C189-7678-4F34-9885-1926E6F5E57E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train", "Train\Train.csproj", "{06D3C189-7678-4F34-9885-1926E6F5E57E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonElements", "CommonElements\CommonElements.csproj", "{63F19538-7DAC-49A4-B0DA-67E92A039C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonElements", "CommonElements\CommonElements.csproj", "{63F19538-7DAC-49A4-B0DA-67E92A039C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagArrays", "Zig-ZagArrays\ZigZagArrays.csproj", "{DABB1C8A-2F98-4375-85F9-CB8C3BA58FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigZagArrays", "Zig-ZagArrays\ZigZagArrays.csproj", "{DABB1C8A-2F98-4375-85F9-CB8C3BA58FC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayRotation", "ArrayRotation\ArrayRotation.csproj", "{C32F635F-6B32-4565-BE0A-63B12FEDFE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{0F57FD80-A93B-4D15-8E90-1D48D7285E95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DABB1C8A-2F98-4375-85F9-CB8C3BA58FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DABB1C8A-2F98-4375-85F9-CB8C3BA58FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DABB1C8A-2F98-4375-85F9-CB8C3BA58FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32F635F-6B32-4565-BE0A-63B12FEDFE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32F635F-6B32-4565-BE0A-63B12FEDFE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32F635F-6B32-4565-BE0A-63B12FEDFE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32F635F-6B32-4565-BE0A-63B12FEDFE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F57FD80-A93B-4D15-8E90-1D48D7285E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F57FD80-A93B-4D15-8E90-1D48D7285E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F57FD80-A93B-4D15-8E90-1D48D7285E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F57FD80-A93B-4D15-8E90-1D48D7285E95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
