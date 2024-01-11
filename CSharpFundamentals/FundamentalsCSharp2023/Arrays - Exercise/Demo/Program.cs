@@ -6,26 +6,43 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            int[] array = Console.ReadLine()
-                          .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                          .Select(int.Parse)
-                          .ToArray();
-            int n = int.Parse(Console.ReadLine());
+            int[] arr = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
 
-            int[] temp = new int[array.Length];
+            int biggestCounter = 0;
+            int bestIndex = 0;
 
-            for (
-                int i = 0; i < n; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                int firstElement = array[0];
-                for (int j = 1; j < temp.Length; j++)
+                int currElement = arr[i];
+                int counter = 1;
+
+                for (int j = i + 1; j < arr.Length; j++)
                 {
-                    temp[j - 1] = array[j];
+                    int secondElement = arr[j];
+                    if (currElement == secondElement)
+                    {
+                        counter++;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
-                temp[temp.Length - 1] = firstElement;
-                array = temp;
+
+                if (counter > biggestCounter)
+                {
+                    biggestCounter = counter;
+                    bestIndex = arr[i];
+                }
             }
-            Console.WriteLine(string.Join(" ", temp));
+
+            for (int i = 0; i < biggestCounter; i++)
+            {
+                Console.Write(bestIndex + " ");
+            }
         }
     }
 }
