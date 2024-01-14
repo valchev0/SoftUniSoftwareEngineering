@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "Printin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{E0454BD0-1D35-4C81-AEA4-071872BD555F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
