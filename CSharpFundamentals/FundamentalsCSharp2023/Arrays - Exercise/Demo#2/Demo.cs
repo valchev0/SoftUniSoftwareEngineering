@@ -16,7 +16,7 @@ namespace Demo
                    .Split('!', StringSplitOptions.RemoveEmptyEntries)
                    .Select(int.Parse)
                    .ToArray();
-                dnaSample.
+                
             }
             
         }

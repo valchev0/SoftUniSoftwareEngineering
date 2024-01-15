@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopIntegers", "TopIntegers\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxSequenceОfEqualElements", "MaxSequenceОfEqualElements\MaxSequenceОfEqualElements.csproj", "{FCAF4FD3-B4C9-4F60-8811-3FFFAED185D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicSum", "MagicSum\MagicSum.csproj", "{7C9C4FD6-40DC-40AD-8C40-15107D62F61E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicSum", "MagicSum\MagicSum.csproj", "{7C9C4FD6-40DC-40AD-8C40-15107D62F61E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{B5A4818B-20C5-48FA-9504-7E71F53890E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{B5A4818B-20C5-48FA-9504-7E71F53890E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo#2", "Demo#2\Demo#2.csproj", "{0074198E-6A31-4EB7-B593-B26A72A07DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo#3", "Demo#3\Demo#3.csproj", "{577A19A1-6C03-408C-A523-CF4DE3EC5FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{B5A4818B-20C5-48FA-9504-7E71F53890E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A4818B-20C5-48FA-9504-7E71F53890E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A4818B-20C5-48FA-9504-7E71F53890E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0074198E-6A31-4EB7-B593-B26A72A07DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0074198E-6A31-4EB7-B593-B26A72A07DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0074198E-6A31-4EB7-B593-B26A72A07DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0074198E-6A31-4EB7-B593-B26A72A07DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577A19A1-6C03-408C-A523-CF4DE3EC5FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577A19A1-6C03-408C-A523-CF4DE3EC5FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577A19A1-6C03-408C-A523-CF4DE3EC5FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577A19A1-6C03-408C-A523-CF4DE3EC5FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

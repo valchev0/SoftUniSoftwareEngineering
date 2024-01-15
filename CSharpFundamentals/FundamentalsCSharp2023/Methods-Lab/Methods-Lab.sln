@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CDC6C2D0-A131-4D37-8D3E-EE70BFDCD88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{CDC6C2D0-A131-4D37-8D3E-EE70BFDCD88E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignOfIntegerNumbers", "SignOfIntegerNumbers\SignOfIntegerNumbers.csproj", "{30F4571C-D1C2-443B-A267-132880D6EEE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignOfIntegerNumbers", "SignOfIntegerNumbers\SignOfIntegerNumbers.csproj", "{30F4571C-D1C2-443B-A267-132880D6EEE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Grades\Grades.csproj", "{E657EFC8-60E6-48D2-A799-27CD7BC35E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grades", "Grades\Grades.csproj", "{E657EFC8-60E6-48D2-A799-27CD7BC35E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "Calculations\Calculations.csproj", "{516A8C48-4EDA-4540-99B6-5E3AEB45880D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "Calculations\Calculations.csproj", "{516A8C48-4EDA-4540-99B6-5E3AEB45880D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{865BFEC8-9DA6-40E2-AC36-0CDE4CC7018C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{865BFEC8-9DA6-40E2-AC36-0CDE4CC7018C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "Orders\Orders.csproj", "{A74B8F7A-25EF-434D-823E-C2D6A02EBE48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{E0454BD0-1D35-4C81-AEA4-071872BD555F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{E0454BD0-1D35-4C81-AEA4-071872BD555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatString", "RepeatString\RepeatString.csproj", "{A27160BC-5D05-4C7E-97EB-967EA42238FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0454BD0-1D35-4C81-AEA4-071872BD555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27160BC-5D05-4C7E-97EB-967EA42238FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27160BC-5D05-4C7E-97EB-967EA42238FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27160BC-5D05-4C7E-97EB-967EA42238FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27160BC-5D05-4C7E-97EB-967EA42238FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,42 +6,24 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            int[] arr = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+            string input = Console.ReadLine();
+            int n = int.Parse(input);
+            int[] array = new int[n];
+            int sum = 0;
+            int bestSum = 0;
 
-            int biggestCounter = 0;
-            int bestIndex = 0;
 
-            for (int i = 0; i < arr.Length; i++)
+            while ((input = Console.ReadLine()) != "Clone them!") 
             {
-                int currElement = arr[i];
-                int counter = 1;
-
-                for (int j = i + 1; j < arr.Length; j++)
+                array = input
+                    .Split('!', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray();
+                sum = array.Sum();
+                if (sum > bestSum)
                 {
-                    int secondElement = arr[j];
-                    if (currElement == secondElement)
-                    {
-                        counter++;
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    bestSum = sum;
                 }
-
-                if (counter > biggestCounter)
-                {
-                    biggestCounter = counter;
-                    bestIndex = arr[i];
-                }
-            }
-
-            for (int i = 0; i < biggestCounter; i++)
-            {
-                Console.Write(bestIndex + " ");
             }
         }
     }
