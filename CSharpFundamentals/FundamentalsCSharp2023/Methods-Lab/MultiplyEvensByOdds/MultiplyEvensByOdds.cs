@@ -6,32 +6,53 @@ namespace MultiplyEvensByOdds
     {
         static void Main(string[] args)
         {
-            int input = Math.Abs(int.Parse(Console.ReadLine()));
-            input = FinalResult(input);
-        }
+            int n = Math.Abs(int.Parse(Console.ReadLine()));
 
-        private static int FinalResult(int input)
-        {
-            int lastDigit = 0;
+            int numCopy = n;
             int evenSum = 0;
             int oddSum = 0;
-            int result = 0;
-            while (input > 0)
+            while (numCopy > 0)
             {
-                lastDigit = input % 10;
-                if (lastDigit % 2 == 0)
-                {
-                    evenSum += lastDigit;
-                }
-                else
-                {
-                    oddSum += lastDigit;
-                }
-                input /= 10;
+                var lastDigit = LastDigit(ref numCopy);
+                evenSum = GetSumOfEvenDigits(lastDigit, evenSum);
+                oddSum = GetSumOfOddDigits(lastDigit, oddSum);
             }
-            result = evenSum * oddSum;
+            var result = GetMultipleOfEvenAndOdds(evenSum, oddSum);
+
             Console.WriteLine(result);
-            return input;
+
+            int LastDigit(ref int numCopy1)
+            {
+                int i = numCopy1 % 10;
+                numCopy1 /= 10;
+                return i;
+            }
+
+            int GetMultipleOfEvenAndOdds(int evenSum1, int oddSum1)
+            {
+                int result1 = evenSum1 * oddSum1;
+                return result1;
+            }
+
+            int GetSumOfEvenDigits(int lastDigit1, int i1)
+            {
+                if (lastDigit1 % 2 == 0)
+                {
+                    i1 += lastDigit1;
+                }
+
+                return i1;
+            }
+
+            int GetSumOfOddDigits(int lastDigit2, int oddSum2)
+            {
+                if (lastDigit2 % 2 != 0)
+                {
+                    oddSum2 += lastDigit2;
+                }
+
+                return oddSum2;
+            }
         }
     }
 }
