@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbers", "SumEvenNu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Even&OddSubtraction", "Even&OddSubtraction\Even&OddSubtraction.csproj", "{6975C4D0-F613-4DFC-8B2C-F57C35E659ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualArrays", "EqualArrays\EqualArrays.csproj", "{4079B979-B8E5-4DBD-971B-EB0B6E2248B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualArrays", "EqualArrays\EqualArrays.csproj", "{4079B979-B8E5-4DBD-971B-EB0B6E2248B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{53DFBE32-7327-4DEA-8647-835E63DA0153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{53DFBE32-7327-4DEA-8647-835E63DA0153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{28718D3B-FA87-4CA5-AA48-43F4260D38D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{53DFBE32-7327-4DEA-8647-835E63DA0153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DFBE32-7327-4DEA-8647-835E63DA0153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DFBE32-7327-4DEA-8647-835E63DA0153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28718D3B-FA87-4CA5-AA48-43F4260D38D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28718D3B-FA87-4CA5-AA48-43F4260D38D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28718D3B-FA87-4CA5-AA48-43F4260D38D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28718D3B-FA87-4CA5-AA48-43F4260D38D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
