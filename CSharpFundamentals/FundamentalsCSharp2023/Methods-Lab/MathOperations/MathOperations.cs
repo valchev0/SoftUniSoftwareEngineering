@@ -6,35 +6,44 @@ namespace MathOperations
     {
         static void Main(string[] args)
         {
-            int firstNum = int.Parse(Console.ReadLine());
-            char calcOperator = char.Parse(Console.ReadLine());
-            int secondNum = int.Parse(Console.ReadLine());
-            int result = 0;
+            double firstNum = double.Parse(Console.ReadLine());
+            char chr = char.Parse(Console.ReadLine());
+            double secondNum = double.Parse(Console.ReadLine());
 
-            result = OpeationsResult(calcOperator, result, firstNum, secondNum);
-
-            Console.Write(result);
-
-            int OpeationsResult(char c, int d, int i, int secondNum1)
+            switch (chr)
             {
-                switch (c)
-                {
-                    case '/':
-                        d = i / secondNum1;
-                        break;
-                    case '*':
-                        d = i * secondNum1;
-                        break;
-                    case '+':
-                        d = i + secondNum1;
-                        break;
-                    case '-':
-                        d = i - secondNum1;
-                        break;
-                }
-
-                return d;
+                case '/':
+                    Console.WriteLine(DivisionOperation(firstNum, secondNum));
+                    break;
+                case '*':
+                    Console.WriteLine(MultiplyOperation(firstNum, secondNum));
+                    break;
+                case '+':
+                    Console.WriteLine(AddingOperation(firstNum, secondNum));
+                    break;
+                case '-':
+                    Console.WriteLine(SubstractingOperation(firstNum, secondNum));
+                    break;
             }
+        }
+        static double DivisionOperation(double firstNum, double secondNum)
+        {
+            return firstNum / secondNum;
+        }
+
+        static double MultiplyOperation(double firstNum, double secondNum)
+        {
+            return firstNum * secondNum;
+        }
+
+        static double AddingOperation(double firstNum, double secondNum)
+        {
+            return firstNum + secondNum;
+        }
+
+        static double SubstractingOperation(double firstNum, double secondNum)
+        {
+            return firstNum - secondNum;
         }
     }
 }

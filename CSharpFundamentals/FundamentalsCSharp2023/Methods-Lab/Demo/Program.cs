@@ -7,54 +7,44 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            int n = Math.Abs(int.Parse(Console.ReadLine()));
+            double firstNum = double.Parse(Console.ReadLine());
+            char chr = char.Parse(Console.ReadLine());
+            double secondNum = double.Parse(Console.ReadLine());
 
-            int[] arr = GetMultipleOfEvenAndOdds(n);
-            int evenSum = GetSumOfEvenDigits(arr);
-            int oddSum = GetSumOfOddDigits(arr);
-
-            int result = evenSum * oddSum;
-            Console.WriteLine(result);
-
-        }
-        static int[] GetMultipleOfEvenAndOdds(int n)
-        {
-            int[] arr = new int[n.ToString().Length];
-            int nCopy = n;
-
-            for (int i = arr.Length - 1; i >= 0; i--)
+            switch (chr)
             {
-                arr[i] = nCopy % 10;
-                nCopy /= 10;
+                case '/':
+                    Console.WriteLine(DivisionOperation(firstNum, secondNum));
+                    break;
+                case '*':
+                    Console.WriteLine(MultiplyOperation(firstNum, secondNum));
+                    break;
+                case '+':
+                    Console.WriteLine(AddingOperation(firstNum, secondNum));
+                    break;
+                case '-':
+                    Console.WriteLine(SubstractingOperation(firstNum, secondNum));
+                    break;
             }
-            return arr;
         }
-
-        static int GetSumOfOddDigits(int[] arr)
+        static double DivisionOperation (double firstNum, double secondNum)
         {
-            int oddSum = 0;
-            foreach (int index in arr)
-            {
-                if (index % 2 != 0)
-                {
-                    oddSum += index;
-                }
-            }
-            return oddSum;
+            return firstNum / secondNum;
         }
 
-        static int GetSumOfEvenDigits(int[] arr)
+        static double MultiplyOperation (double firstNum, double secondNum)
         {
-            int evenSum = 0;
-            foreach (int index in arr)
-            {
-                if (index % 2 == 0)
-                {
-                    evenSum += index;
-                }
-            }
-            return evenSum;
+            return firstNum * secondNum;
         }
 
+        static double AddingOperation (double firstNum, double secondNum)
+        { 
+            return firstNum + secondNum;
+        }
+
+        static double SubstractingOperation (double firstNum, double secondNum)
+        { 
+            return firstNum - secondNum;
+        }
     }
 }
