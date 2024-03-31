@@ -6,20 +6,22 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            PrintSomething("x");
-            PrintMeSomething("y");
-        }
+            int arrayLength = 3;
 
-        static string PrintSomething(string text)
-        {
+            int[] array = ArrayCreation(arrayLength);
 
-            return text;
-            
+            Console.WriteLine(array.Min());
         }
-        static void PrintMeSomething(string text)
+        static int[] ArrayCreation(int arrayLength)
         {
-            Console.WriteLine(text);
+            int[] arr = new int[arrayLength];
+
+            for (int i = 0; i < arrayLength; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+            return arr;
         }
     }
 }

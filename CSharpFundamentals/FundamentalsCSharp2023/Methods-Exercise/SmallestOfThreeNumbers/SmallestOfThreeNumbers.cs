@@ -6,11 +6,25 @@ namespace SmallestOfThreeNumbers
     {
         static void Main(string[] args)
         {
-            int firstInt = int.Parse(Console.ReadLine());
-            int secondInt = int.Parse(Console.ReadLine());
-            int thirdInt = int.Parse(Console.ReadLine());
+            static void Main(string[] args)
+            {
+                int arrayLength = 3;
 
-            
+                int[] array = ArrayCreation(arrayLength);
+
+                Console.WriteLine(array.Min());
+            }
+            static int[] ArrayCreation(int arrayLength)
+            {
+                int[] arr = new int[arrayLength];
+
+                for (int i = 0; i < arrayLength; i++)
+                {
+                    arr[i] = int.Parse(Console.ReadLine());
+                }
+
+                return arr;
+            }
         }
     }
 }
