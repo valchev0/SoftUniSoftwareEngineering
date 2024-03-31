@@ -8,51 +8,52 @@ namespace MultiplyEvensByOdds
         {
             int n = Math.Abs(int.Parse(Console.ReadLine()));
 
-            int numCopy = n;
-            int evenSum = 0;
-            int oddSum = 0;
-            while (numCopy > 0)
-            {
-                var lastDigit = LastDigit(ref numCopy);
-                evenSum = GetSumOfEvenDigits(lastDigit, evenSum);
-                oddSum = GetSumOfOddDigits(lastDigit, oddSum);
-            }
-            var result = GetMultipleOfEvenAndOdds(evenSum, oddSum);
+            int[] arr = GetMultipleOfEvenAndOdds(n);
+            int evenSum = GetSumOfEvenDigits(arr);
+            int oddSum = GetSumOfOddDigits(arr);
 
+            int result = evenSum * oddSum;
             Console.WriteLine(result);
 
-            int LastDigit(ref int numCopy1)
-            {
-                int i = numCopy1 % 10;
-                numCopy1 /= 10;
-                return i;
-            }
-
-            int GetMultipleOfEvenAndOdds(int evenSum1, int oddSum1)
-            {
-                int result1 = evenSum1 * oddSum1;
-                return result1;
-            }
-
-            int GetSumOfEvenDigits(int lastDigit1, int i1)
-            {
-                if (lastDigit1 % 2 == 0)
-                {
-                    i1 += lastDigit1;
-                }
-
-                return i1;
-            }
-
-            int GetSumOfOddDigits(int lastDigit2, int oddSum2)
-            {
-                if (lastDigit2 % 2 != 0)
-                {
-                    oddSum2 += lastDigit2;
-                }
-
-                return oddSum2;
-            }
         }
+        static int[] GetMultipleOfEvenAndOdds(int n)
+        {
+            int[] arr = new int[n.ToString().Length];
+            int nCopy = n;
+
+            for (int i = arr.Length - 1; i >= 0; i--)
+            {
+                arr[i] = nCopy % 10;
+                nCopy /= 10;
+            }
+            return arr;
+        }
+
+        static int GetSumOfOddDigits(int[] arr)
+        {
+            int oddSum = 0;
+            foreach (int index in arr)
+            {
+                if (index % 2 != 0)
+                {
+                    oddSum += index;
+                }
+            }
+            return oddSum;
+        }
+
+        static int GetSumOfEvenDigits(int[] arr)
+        {
+            int evenSum = 0;
+            foreach (int index in arr)
+            {
+                if (index % 2 == 0)
+                {
+                    evenSum += index;
+                }
+            }
+            return evenSum;
+        }
+
     }
 }
