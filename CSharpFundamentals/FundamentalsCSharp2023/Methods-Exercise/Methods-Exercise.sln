@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleCharacters", "MiddleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NxNMatrix", "NxNMatrix\NxNMatrix.csproj", "{F2DE3C3F-8437-4C3C-8F89-F37EBBC95A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDivision", "FactorialDivision\FactorialDivision.csproj", "{E2C210A2-ACDF-4E59-93C5-3A4A6CFB4E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F2DE3C3F-8437-4C3C-8F89-F37EBBC95A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DE3C3F-8437-4C3C-8F89-F37EBBC95A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2DE3C3F-8437-4C3C-8F89-F37EBBC95A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C210A2-ACDF-4E59-93C5-3A4A6CFB4E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C210A2-ACDF-4E59-93C5-3A4A6CFB4E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C210A2-ACDF-4E59-93C5-3A4A6CFB4E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C210A2-ACDF-4E59-93C5-3A4A6CFB4E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
