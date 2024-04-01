@@ -8,27 +8,13 @@ namespace MiddleCharacters
         {
             string input = Console.ReadLine();
 
-            bool isEven = LengthIdentifier(input);
-
-            ResultWriteLine(input, isEven);
+            ResultWriteLine(input);
         }
-
-        static bool LengthIdentifier(string input)
-        {
-            bool isEven = true;
-
-            if (input.Length % 2 != 0)
-            {
-                return isEven = false;
-            }
-            return isEven;
-        }
-
-        static void ResultWriteLine(string input, bool isEven)
+        static void ResultWriteLine(string input)
         {
             int firstMidChar = (input.Length - 1) / 2;
 
-            if (isEven)
+            if (input.Length % 2 == 0)
             {
                 int secondMidChar = input.Length / 2;
 
