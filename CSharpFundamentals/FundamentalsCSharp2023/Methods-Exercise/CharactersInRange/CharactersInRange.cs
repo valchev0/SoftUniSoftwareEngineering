@@ -14,14 +14,6 @@ namespace CharactersInRange
 
         static char[] CharactersArray(char charStart, char charEnd)
         {
-            //int length = Math.Abs(start.CompareTo(end));
-            //char[] result = new char[length];
-            //int counter = 0;
-            //for (int i = (int)start + 1; i < (int)end; i++)
-            //{
-            //    char[counter] = ((int)start) 
-            //}
-
             int length = Math.Abs(charStart.CompareTo(charEnd));
             char[] chars = new char[length];
 
@@ -34,6 +26,7 @@ namespace CharactersInRange
                 chars[counter] = (char)i;
                 counter++;
             }
+
             return chars;
         }
     }
