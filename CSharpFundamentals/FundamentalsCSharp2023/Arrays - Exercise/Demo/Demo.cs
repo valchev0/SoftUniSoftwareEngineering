@@ -1,26 +1,21 @@
 ﻿using System;
+using System.Threading.Channels;
 
 namespace Demo
 {
     internal class Demo
     {
-        static void Main(string[] args)
+        String[] days =
         {
-            int n = int.Parse(Console.ReadLine());
-            int[] arr = WagonsInArray(n);
-            Console.WriteLine(string.Join(" ", arr));
-            Console.WriteLine(arr.Sum());
-        }
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        };
 
-        static int[] WagonsInArray (int n)
-        {
-            int[] array = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                array[i] = int.Parse(Console.ReadLine());
-            }
-            return array; 
-        }
-
+        Console.WriteLine(String.Join(" ", days));
     }
 }

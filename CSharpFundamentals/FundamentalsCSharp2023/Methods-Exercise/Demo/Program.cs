@@ -6,11 +6,12 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            int arrayLength = 3;
+            int n = int.Parse(Console.ReadLine());
 
-            int[] array = ArrayCreation(arrayLength);
-
-            Console.WriteLine(array.Min());
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(i.ToString());
+            }
         }
         static int[] ArrayCreation(int arrayLength)
         {
