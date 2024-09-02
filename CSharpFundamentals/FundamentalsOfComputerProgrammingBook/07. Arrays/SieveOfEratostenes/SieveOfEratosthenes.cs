@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SieveOfEratostenes
+namespace SieveOfEratosthenes
 {
-    internal class SieveOfEratostenes
+    internal class SieveOfEratosthenes
     {
         static void Main(string[] args)
         {
