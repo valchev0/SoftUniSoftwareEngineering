@@ -13,7 +13,11 @@ namespace RoundingNumbers
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine($"{numbers[i]} => {((int)Math.Round(numbers[i], MidpointRounding.AwayFromZero))}");
+                int rounded = (numbers[i] < 0)
+                    ? (int)(numbers[i] - 0.5)
+                    : (int)(numbers[i] + 0.5);
+
+                Console.WriteLine("{0} => {1}", numbers[i], rounded);
             }
         }
     }
