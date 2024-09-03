@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadTwoArrays", "ReadTwoArr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonachi", "Fibonachi\Fibonachi.csproj", "{3F3E0900-04D7-4EDB-A059-21F577A2C401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfEratosthenes", "SieveOfEratostenes\SieveOfEratosthenes.csproj", "{4E6149AF-C8CC-4252-8B52-2DBB0159788C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SieveOfEratosthenes", "SieveOfEratostenes\SieveOfEratosthenes.csproj", "{4E6149AF-C8CC-4252-8B52-2DBB0159788C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastKSumNumbers", "LastKSumNumbers\LastKSumNumbers.csproj", "{C3A0A04E-6F55-4D12-84D5-49EB235E8338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastKSumNumbers", "LastKSumNumbers\LastKSumNumbers.csproj", "{C3A0A04E-6F55-4D12-84D5-49EB235E8338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumMinMaxFirstLastAverage", "SumMinMaxFirstLastAverage\SumMinMaxFirstLastAverage.csproj", "{8E497AFA-7271-4A53-B946-417F0CCD10AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C3A0A04E-6F55-4D12-84D5-49EB235E8338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3A0A04E-6F55-4D12-84D5-49EB235E8338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3A0A04E-6F55-4D12-84D5-49EB235E8338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E497AFA-7271-4A53-B946-417F0CCD10AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E497AFA-7271-4A53-B946-417F0CCD10AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E497AFA-7271-4A53-B946-417F0CCD10AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E497AFA-7271-4A53-B946-417F0CCD10AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
