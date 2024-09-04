@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMiddleElements", "ExtractMiddleElements\ExtractMiddleElements.csproj", "{1B52FD93-6B01-4F54-A128-9A2D97CAF902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{AADE902C-4EA3-4499-8AF1-A3E05B9F1DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{1B52FD93-6B01-4F54-A128-9A2D97CAF902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B52FD93-6B01-4F54-A128-9A2D97CAF902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B52FD93-6B01-4F54-A128-9A2D97CAF902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADE902C-4EA3-4499-8AF1-A3E05B9F1DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADE902C-4EA3-4499-8AF1-A3E05B9F1DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADE902C-4EA3-4499-8AF1-A3E05B9F1DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADE902C-4EA3-4499-8AF1-A3E05B9F1DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
