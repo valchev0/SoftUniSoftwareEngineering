@@ -12,6 +12,10 @@ namespace ReverseArrayOfStrings
             //    .Reverse()
             //    .ToArray();
 
+            //OR
+
+            //Console.WriteLine(string.Join(" ", Console.ReadLine().Split(' ').Reverse()));
+
             string[] arr = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
