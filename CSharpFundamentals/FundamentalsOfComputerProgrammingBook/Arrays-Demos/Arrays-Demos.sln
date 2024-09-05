@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintArrys", "PrintArrys\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizingLists", "ResizingLists\ResizingLists.csproj", "{6DE438D3-8FB6-424D-9651-78C426CA17EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Reverse\Reverse.csproj", "{2E4B57A7-C732-4662-9DF5-3988CF803133}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6DE438D3-8FB6-424D-9651-78C426CA17EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE438D3-8FB6-424D-9651-78C426CA17EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE438D3-8FB6-424D-9651-78C426CA17EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4B57A7-C732-4662-9DF5-3988CF803133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4B57A7-C732-4662-9DF5-3988CF803133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4B57A7-C732-4662-9DF5-3988CF803133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4B57A7-C732-4662-9DF5-3988CF803133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
