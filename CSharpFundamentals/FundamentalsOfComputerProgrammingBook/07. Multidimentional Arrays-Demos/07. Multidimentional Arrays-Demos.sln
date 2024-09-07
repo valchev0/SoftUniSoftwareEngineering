@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadWriteMatrix", "ReadWriteMatrix\ReadWriteMatrix.csproj", "{504CBB47-BDBF-4373-844B-F9B26D8DC2C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingArrays", "SortingArrays\SortingArrays.csproj", "{2996C4F2-1DF5-4A4B-B053-58A1BC658FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{504CBB47-BDBF-4373-844B-F9B26D8DC2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504CBB47-BDBF-4373-844B-F9B26D8DC2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504CBB47-BDBF-4373-844B-F9B26D8DC2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2996C4F2-1DF5-4A4B-B053-58A1BC658FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2996C4F2-1DF5-4A4B-B053-58A1BC658FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2996C4F2-1DF5-4A4B-B053-58A1BC658FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2996C4F2-1DF5-4A4B-B053-58A1BC658FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
