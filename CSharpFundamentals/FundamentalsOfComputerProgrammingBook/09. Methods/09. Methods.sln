@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingTriangle", "Printin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FahrenheitToCelsius", "FahrenheitToCelsius\FahrenheitToCelsius.csproj", "{286F534A-6B1D-4644-BD0F-01029518B355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyArray", "ModifyArray\ModifyArray.csproj", "{91C59547-A216-4C09-86E0-06E6D9B576BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifyArray", "ModifyArray\ModifyArray.csproj", "{91C59547-A216-4C09-86E0-06E6D9B576BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Months", "Months\Months.csproj", "{3F2A17D3-A892-4EE6-A715-900F7AB82953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Months", "Months\Months.csproj", "{3F2A17D3-A892-4EE6-A715-900F7AB82953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "DataValidation\DataValidation.csproj", "{52F890D7-F717-419E-845B-6EA2CF6F4194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataValidation", "DataValidation\DataValidation.csproj", "{52F890D7-F717-419E-845B-6EA2CF6F4194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingEngine", "SortingEngine\SortingEngine.csproj", "{F5947F98-8F1B-4840-997B-BC183B05C7F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingEngine", "SortingEngine\SortingEngine.csproj", "{F5947F98-8F1B-4840-997B-BC183B05C7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\HelloName.csproj", "{AD7B9850-5EB2-4BE6-9A3B-5AD2CF026934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F5947F98-8F1B-4840-997B-BC183B05C7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5947F98-8F1B-4840-997B-BC183B05C7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5947F98-8F1B-4840-997B-BC183B05C7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7B9850-5EB2-4BE6-9A3B-5AD2CF026934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7B9850-5EB2-4BE6-9A3B-5AD2CF026934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7B9850-5EB2-4BE6-9A3B-5AD2CF026934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7B9850-5EB2-4BE6-9A3B-5AD2CF026934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
