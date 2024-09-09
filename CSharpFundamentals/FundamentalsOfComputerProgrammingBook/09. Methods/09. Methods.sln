@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOfThreeNumbers", "MaxOfT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitToString", "DigitToString\DigitToString.csproj", "{4ED8E88D-3719-45CA-A897-ED37928A1A51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitContainsInArray", "DigitContainsInArray\DigitContainsInArray.csproj", "{B41E3319-8A05-478A-8EFE-C7014951F762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{4ED8E88D-3719-45CA-A897-ED37928A1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED8E88D-3719-45CA-A897-ED37928A1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED8E88D-3719-45CA-A897-ED37928A1A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41E3319-8A05-478A-8EFE-C7014951F762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41E3319-8A05-478A-8EFE-C7014951F762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41E3319-8A05-478A-8EFE-C7014951F762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41E3319-8A05-478A-8EFE-C7014951F762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
