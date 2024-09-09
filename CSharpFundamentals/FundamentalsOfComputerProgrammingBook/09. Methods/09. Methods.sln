@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FahrenheitToCelsius", "Fahr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyArray", "ModifyArray\ModifyArray.csproj", "{91C59547-A216-4C09-86E0-06E6D9B576BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Months", "Months\Months.csproj", "{3F2A17D3-A892-4EE6-A715-900F7AB82953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{91C59547-A216-4C09-86E0-06E6D9B576BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C59547-A216-4C09-86E0-06E6D9B576BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C59547-A216-4C09-86E0-06E6D9B576BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2A17D3-A892-4EE6-A715-900F7AB82953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2A17D3-A892-4EE6-A715-900F7AB82953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2A17D3-A892-4EE6-A715-900F7AB82953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2A17D3-A892-4EE6-A715-900F7AB82953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
