@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SumAdjacentEqualNumbers
+namespace GaussT    
 {
-    internal class SumAdjacentEqualNumbers
+    internal class GaussTrick
     {
         static void Main(string[] args)
         {
