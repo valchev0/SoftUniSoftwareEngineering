@@ -1,27 +1,33 @@
 ﻿using System;
 
-namespace GaussT    
+namespace GaussTrick    
 {
     internal class GaussTrick
     {
         static void Main(string[] args)
         {
-            List<decimal> list = Console.ReadLine()
+            List<int> ints = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(decimal.Parse)
+                .Select(int.Parse)
                 .ToList();
 
-
-            for (int i = 0; i < list.Count - 1; i++)
+            List<int> results = new List<int>();
+            if (ints.Count % 2 == 0)
             {
-                if (list[i] == list[i + 1])
+                for (int i = 0; i < ints.Count / 2; i++)
                 {
-                    list[i] += list[i + 1];
-                    list.RemoveAt(i + 1);
-                    i = -1;
+                    results.Add(ints[i] + ints[(ints.Count - 1) - i]);
                 }
             }
-            Console.WriteLine(string.Join(" ", list));
+            else
+            {
+                for (int i = 0; i < ints.Count / 2; i++)
+                {
+                    results.Add(ints[i] + ints[(ints.Count - 1) - i]);
+                }
+                results.Add(ints[(ints.Count / 2)]);
+            }
+            Console.WriteLine(string.Join(" ", results));
         }
     }
 }

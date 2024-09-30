@@ -6,22 +6,38 @@ namespace SumAdjacentEqualNumbers
     {
         static void Main(string[] args)
         {
-            List<decimal> list = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(decimal.Parse)
-                .ToList();
-
-
-            for (int i = 0; i < list.Count - 1; i++)
+            List<double> numbers = new List<double>();
+            string input = Console.ReadLine();
+            List<string> list = input.Split(' ').ToList();
+            for (int i = 0; i < list.Count; i++)
             {
-                if (list[i] == list[i + 1])
-                {
-                    list[i] += list[i + 1];
-                    list.RemoveAt(i + 1);
-                    i = -1;
-                }
+                numbers.Add(double.Parse(list[i]));
             }
-            Console.WriteLine(string.Join(" ", list));
+            for (int i = 0; i < numbers.Count - 1; i++)
+            {
+                while (i < numbers.Count - 1)
+                {
+                    if (numbers[i] == numbers[i + 1])
+                    {
+                        numbers[i] = numbers[i] + numbers[i + 1];
+                        numbers.RemoveAt(i + 1);
+                        if (i > 0) // връщаме брояча с една позиция, защото като премахнем елемент, трябва да проверяваме и следващия
+                        {
+                            i--;
+                        }
+                    }
+                    else
+                    {
+                        i++;
+                    }
+
+                }
+
+            }
+
+
+
+            Console.WriteLine(string.Join(" ", numbers));
         }
     }
 }
