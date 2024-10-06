@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergingLists", "MergingList
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOfProducts", "ListOfProducts\ListOfProducts.csproj", "{6734FBE0-37B3-48AA-9AEE-5C2DBB146399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNegativesAndReverse", "RemoveNegativesAndReverse\RemoveNegativesAndReverse.csproj", "{B4F01D57-E3BE-4869-A108-1F9CF3766F16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6734FBE0-37B3-48AA-9AEE-5C2DBB146399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6734FBE0-37B3-48AA-9AEE-5C2DBB146399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6734FBE0-37B3-48AA-9AEE-5C2DBB146399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F01D57-E3BE-4869-A108-1F9CF3766F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F01D57-E3BE-4869-A108-1F9CF3766F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F01D57-E3BE-4869-A108-1F9CF3766F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F01D57-E3BE-4869-A108-1F9CF3766F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
