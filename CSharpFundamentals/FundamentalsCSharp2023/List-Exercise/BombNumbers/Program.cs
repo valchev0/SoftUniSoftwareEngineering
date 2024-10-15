@@ -8,67 +8,26 @@
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
-            List<int> bombs = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToList();
+            int[] bombs = Console.ReadLine()
+                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                 .Select(int.Parse)
+                 .ToArray();
 
             int bomb = bombs[0];
             int bombPower = bombs[1];
 
-            int index = list.IndexOf(bomb);
-
-            RightExplosion(list, bombPower, index);
-
-            LeftExplosion(list, bombPower, index);
-
-            if (list.Contains(bombPower))
+            while (list.Contains(bomb))
             {
-                index = list.IndexOf(bomb);
+                int index = list.IndexOf(bomb);
 
-                RightExplosion(list, bombPower, index);
+                int leftIndex = Math.Max(0, index - bombPower);
+                int rightIndex = Math.Min(list.Count - 1, index + bombPower);
 
-                LeftExplosion(list, bombPower, index);
+                int countToRemove = rightIndex - leftIndex + 1;
+                list.RemoveRange(leftIndex, countToRemove);
             }
 
-            Console.WriteLine(string.Join(" ", list));
             Console.WriteLine(list.Sum());
-        }
-
-        static void RightExplosion(List<int> list, int bombPower, int index)
-        {
-            if (index + bombPower > list.Count)
-            {
-                for (int i = index + 1; i < list.Count; i++)
-                {
-                    list.RemoveAt(i);
-                }
-            }
-            else if (index + bombPower <= list.Count)
-            {
-                for (int i = index + 1; i < index + bombPower; i++)
-                {
-                    list.RemoveAt(i);
-                }
-            }
-        }
-
-        static void LeftExplosion(List<int> list, int bombPower, int index)
-        {
-            if (index >= bombPower)
-            {
-                for (int i = index; i >= (index - bombPower); i--)
-                {
-                    list.RemoveAt(i);
-                }
-            }
-            else if (index < bombPower)
-            {
-                for (int i = index; i >= (bombPower - index); i--)
-                {
-                    list.RemoveAt(i);
-                }
-            }
         }
     }
 }
