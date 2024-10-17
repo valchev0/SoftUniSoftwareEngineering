@@ -15,18 +15,17 @@
 
             for (int i = 1; i <= days; i++)
             {
-                if (!isLoopEnd && foodQuantity >= 0.31m)
+                if (foodQuantity >= 0.3m)
                 {
                     foodQuantity -= 0.3m;
                 }
                 else
                 {
-                    Console.WriteLine("Merry must go to the pet store!");
                     isLoopEnd = true;
                     break;
                 }
 
-                if (!isLoopEnd && (i % 2 == 0))
+                if (i % 2 == 0)
                 {
                     if (!isLoopEnd)
                     {
@@ -38,28 +37,20 @@
                         }
                         else
                         {
-                            Console.WriteLine("Merry must go to the pet store!");
                             isLoopEnd = true;
                             break;  
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine("Merry must go to the pet store!");
-                        isLoopEnd = true;
-                        break;
-                    }
                 }
-                if (!isLoopEnd && (i % 3 == 0))
+                if (i % 3 == 0)
                 {
                     decimal coverNeeded = guineaWeight / 3.0m;
-                    if (!isLoopEnd && (coverQuantity >= coverNeeded))
+                    if (coverQuantity >= coverNeeded)
                     {
                         coverQuantity -= coverNeeded;
                     }
                     else
                     {
-                        Console.WriteLine("Merry must go to the pet store!");
                         isLoopEnd = true;
                         break;
                     }
@@ -69,6 +60,10 @@
             if (!isLoopEnd)
             {
                 Console.WriteLine("Everything is fine! Puppy is happy! Food: {0:0.00}, Hay: {1:0.00}, Cover: {2:0.00}.", foodQuantity, hayQuantity, coverQuantity);
+            }
+            else
+            {
+                Console.WriteLine("Merry must go to the pet store!");
             }
         }
     }
