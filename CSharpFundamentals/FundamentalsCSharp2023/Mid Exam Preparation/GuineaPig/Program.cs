@@ -38,7 +38,7 @@
                         else
                         {
                             isLoopEnd = true;
-                            break;  
+                            break;
                         }
                     }
                 }
