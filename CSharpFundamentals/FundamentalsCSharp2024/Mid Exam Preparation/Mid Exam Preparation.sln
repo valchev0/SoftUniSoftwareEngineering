@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingTarget", "MovingTarge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerStore", "ComputerStore\ComputerStore.csproj", "{B43D79F7-E2EA-44BB-ACE4-7EB201F5C919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{4640DA1B-9D09-4D85-9C2A-E92BFE8E202B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{4640DA1B-9D09-4D85-9C2A-E92BFE8E202B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{DBB80389-8935-46A7-842F-0752B72F0C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4640DA1B-9D09-4D85-9C2A-E92BFE8E202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4640DA1B-9D09-4D85-9C2A-E92BFE8E202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4640DA1B-9D09-4D85-9C2A-E92BFE8E202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB80389-8935-46A7-842F-0752B72F0C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB80389-8935-46A7-842F-0752B72F0C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB80389-8935-46A7-842F-0752B72F0C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB80389-8935-46A7-842F-0752B72F0C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
