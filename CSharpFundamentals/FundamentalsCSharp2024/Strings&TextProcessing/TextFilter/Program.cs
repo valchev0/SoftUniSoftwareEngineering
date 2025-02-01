@@ -11,8 +11,12 @@ namespace TextFilter
 
             string text = Console.ReadLine();
 
-            StringBuilder sb = new StringBuilder();
-
+            foreach (string bannedWord in bannedWords)
+            {
+                string replacer = new string('*', bannedWord.Length);
+                text = text.Replace(bannedWord, replacer);
+            }
+            Console.WriteLine(text);
         }
     }
 }
